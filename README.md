@@ -1,75 +1,135 @@
-<p align="center"><a href="#"><img src="https://user-images.githubusercontent.com/48920263/228290334-e8673b16-afd2-4039-8a17-52fbf5d832e5.png" draggable="false" ondragstart="return false;" alt="SiriGPT Title" title="SiriGPT" /></a></p>
+<p align="center"><a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/e07dcac2-69a8-4add-a947-33d972ec28d0" draggable="false" ondragstart="return false;" alt="SiriGPT Title" title="SiriGPT" /></a></p>
 
-The technologies driving the new wave of chatbots have been percolating for years. But the release of [ChatGPT][chaGPT] really opened people’s eyes. It set off a new arms race across Silicon Valley. However, AI is not new as voice assistants like [Siri][apple-siri] have been here for quite a long time. In the same vein though, most will agree that Siri does not pack a lot of intelligence in her artificial brain. But what if I told you that you can combine the best of both worlds and actually get ChatGPT to work with Siri?
+The technologies driving the new wave of chatbots have been brewing for years, taking the world by storm. The release of ChatGPT has triggered a Silicon Valley arms race, pitting the best minds against each other to push the limits of what chatbots can do. But while voice assistants like [Siri][apple-siri] have been around for a while, they don't pack the same punch as [ChatGPT][chaGPT]. That's where the real magic happens, by combining the best of both worlds, we can give Siri a significant IQ boost and take chatbots to new heights. The integration of ChatGPT into Siri represents the unique way we interact with our devices. This shortcut allows you to access the immense intelligence of ChatGPT and the creativity of [DALL·E][dalle] within Siri, giving you a chatbot experience like never before.
 
-<p align="center"><a href="#"><img src="https://user-images.githubusercontent.com/48920263/228290609-e7348ccc-f87e-4885-90a0-1526f35cb917.png" draggable="false" ondragstart="return false;" alt="IMG show Siri conbined with ChatGPT" title="Siri conbined with ChatGPT" width="590px" /></a></p>
+<p align="center"><a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/f34a0375-c6e9-4b4f-906f-3eaed6ec31d4" draggable="false" ondragstart="return false;" alt="IMG show Siri conbined with ChatGPT" title="Siri conbined with ChatGPT" width="700px" /></a></p>
 
-The process for combining ChatGPT with Siri is quite simple, however, it has requirements and links you need, so make sure you have them all before proceeding.<br/><br/>
+Combining ChatGPT with Siri is relatively straightforward, but it does require a few specific requirements and links to ensure everything works smoothly.
+<br/><br/>
 
 ## Requirements to get ChatGPT to work with Siri
 
 ### Get the Shortcut
 
-The integration of ChatGPT into Siri works through a handy shortcut that will run on your iPhone or Mac. As such, it is necessary to download the Apple Shortcuts app. While the shortcut is named "Explain Me", you can always rename it to whatever you prefer. Download the shortcut by clicking the icon below, but don't run it yet. Once downloaded, keep reading.<br/><br/>
-
-<p align="center"><a href="https://www.icloud.com/shortcuts/f91372548d304a36a10346e207fce940"><img src="https://user-images.githubusercontent.com/48920263/228290806-6619c79b-9eef-435e-88c1-dbd07d44f07c.png" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="590px" /></a></p><br/><br/>
-
-### Create your ChatGPT API Key
-
-To successfully use ChatGPT’s services with Siri, you need its API. ChatGPT’s API key can be accessed through your OpenAI account [here][open-ai-account]. Once logged in, you will see the option to “Create new secret key” click on it to generate an API key.<br/><br/>
-
-<p align="center"><a href="#"><img src="https://user-images.githubusercontent.com/48920263/228598524-73c94693-941d-4a3a-8230-649bd3999ff8.png" draggable="false" ondragstart="return false;" alt="IMG show how to create new secret key" title="Create new secret key" width="590px" /></a></p><br/><br/>
-
-If you do not have an OpenAI account, you can create one [here][open-ai-API] and then visit the above link. Once done, copy the ChatGPT API key.<br/><br/>
-
-<p align="center"><a href="#"><img src="https://user-images.githubusercontent.com/48920263/228598729-9a3c9f4c-2aff-4da9-8dae-4d41e3e241bd.png" draggable="false" ondragstart="return false;" alt="IMG show an example of a ChatGPT API Key" title="ChatGPT API Key" width="590px" /></a></p><br/><br/>
-
-**Note:** Remember that once you copy the key and close the pop-up, you won't be able to view it again. So keep it somewhere safe.
+To get started, all you need is the [Apple Shortcuts app][apple-shortcuts-download]. Once you have [downloaded the shortcut][sirigpt-shortcut], look for the "Chatty" button. You can even customise the shortcut name to suit your preferences. However, once downloaded don't run it yet, keep reading.
 <br/><br/>
 
-### How to Set up and use ChatGPT with Siri
+<p align="center"><a href="https://www.icloud.com/shortcuts/639f90b471204d08ad1ccb1a28fa85e1"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/7961b569-35bb-4f47-87cc-a20eb13269a4" draggable="false" ondragstart="return false;" alt="Download theShortcut" title="Download Shortcut" width="600px" /></a></p><br/>
+
+### Create your OpenAI API Key
+
+To use ChatGPT's services with Siri, you'll first need to obtain the API key. This can be done by generating a new secret key from your OpenAI account, which will be required for authentication. To get started, you can obtain the key by following these steps. First, log in to your [OpenAI account][open-ai-account]. Next, look for the "Create new secret key" option and click on it.
+
+<p align="center"><a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/b10ad2cb-92c0-4c76-a0a5-4b5902d40f30" draggable="false" ondragstart="return false;" alt="IMG show how to create new secret key" title="Create new secret key" width="750px" /></a></p>
+
+Once you have the [API Key][open-ai-API], integrating ChatGPT's services with Siri is a breeze. It's important to note that once you copy the key and close the pop-up, you won't be able to view it again, so it's crucial to keep the key in a safe and secure location.
+<br/><br/>
+
+<p align="center"><a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/53e9c637-d59e-4240-9d5f-ed4f22e7bc19" draggable="false" ondragstart="return false;" alt="IMG show an example of a OpenAI API Key" title="OpenAI API Key" width="750px" /></a></p><br/>
+
+## How to set up and use ChatGPT with Siri
+
+### Setting Up
 
 Once you have downloaded the shortcut and copied the API key, it’s time to make it work and see it in action:
 
-1. Open the Shortcuts app to access the downloaded "Explain Me" shortcut.
-2. Once the shortcut has been launched, follow the prompts to set where to store your API key. You will be asked to keep it within the shortcut or store it inside Data Jar.<br/><br/>
+- Open the Shortcuts app and access the downloaded Chatty shortcut.
 
-<p align="center"><a href="#"><img src="https://user-images.githubusercontent.com/48920263/228598339-f7c503ca-a23c-442d-80d4-b2a72816d331.png" draggable="false" ondragstart="return false;" alt="IMG show where paste your ChatGPT API key" title="Paste your ChatGPT API key here" width="590px" /></a></p><br/><br/>
+- Once you launch the Chatty shortcut, you will be prompted to set your API key. You have two options for storing your API key: within the shortcut or inside Data Jar. To clarify, if you choose "Yes" your OpenAI API key will be stored in Data Jar, which is a third-party app for storing data in iOS. If you select "No" your API key will be kept within the Siri shortcut. It's important to note that if you choose to keep your API key in the shortcut, you should take extra care to keep your shortcut secure and not share it with anyone, as this could potentially expose your API key.
 
-All done! ChatGPT has now been integrated with Siri. You can call the Shortcut by either tapping on the shortcut from the app or from the menu bar on your Mac. You can also call the shortcut by saying "Hey Siri" followed by "Explain Me" your smart assistant will launch directly into ChatGPT. This means that you now have the most powerful AI chatbot as an assistant.<br/><br/>
+- The OpenAI API is powered by a range of models that have different capabilities and pricing plans to suit various use cases. These models include GPT-3, GPT-4. The default model used by SiriGPT is GPT-3.5-turbo. However, users are free to choose the model version they want to use based on their specific needs and requirements. Keep in mind GPT-4 is currently in a limited beta and only accessible to those who have been granted access.
+<br/><br/>
 
-<p align="center"><a href="#"><img src="https://user-images.githubusercontent.com/48920263/228599582-bd37ee5d-53ac-4ed7-aadd-126bcd08cc08.png" draggable="false" ondragstart="return false;" alt="ChatGPT launched with Siri" title="ChatGPT launched with Siri" width="590px" /></a></p>
+<p align="center"><a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/cd0942d0-b2ba-48bd-a908-757b4a785c68" draggable="false" ondragstart="return false;" alt="IMG show where paste your OpenAI API key" title="Paste your OpenAI API key here" width="600px" /></a></p><br/><br/>
+
+All done! Once the integration is complete, you can launch the shortcut by tapping it within the app or from the menu bar on your Mac. Alternatively, when ready to use the shortcut, simply activate Siri and say "Chatty" followed by your question or prompt. The shortcut will then generate a response and read it back to you.
+<br/><br/><br/>
+
+<p align="center"><a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/7989a213-f8ac-4a0c-b267-46ca72c771a5" draggable="false" ondragstart="return false;" alt="SiriGPT launched" title="SiriGPT launched" width="900px" /></a></p>
 
 <br/>
 
-**A few hints:** you may think I've used ChatGPT, but it doesn't seem that great. Well, it turns out lots of people are using it wrong, the trick is to make it answer and not think. A good pattern to follow is to be as specific as possible about the output, a vague input will give you a vague answer. Ask for a clear response and provide a detailed list of things he should avoid. It all makes sense. You can't give a worker fake instructions and expect a good result. Keep in mind that it may happen that the shortcut may not work due to the overload of the OpenAI servers.<br/><br/>
+### Considerations
+
+ChatGPT is one of the most advanced chatbots available today, with the ability to generate human-like responses to a wide range of questions and inputs. However, like any technology, it has limitations and requires specific usage patterns to produce the desired output.
+
+If you have not found SiriGPT useful, it may be because you are not providing it with specific enough input. The key to obtaining precise and accurate responses from SiriGPT is to be as specific as possible about the desired output. A vague input will likely produce a vague answer, while a well-defined input will yield a more targeted and useful response.
+
+In summary, to make the most of SiriGPT, it is essential to be specific about the desired output and provide clear instructions on what to avoid. With these guidelines in mind, you can unlock the full potential of this powerful chatbot and streamline your daily tasks.
+<br/><br/>
+
+<p align="center"><a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/af51ec37-a7e8-4162-9ddc-f2b4c2eb97ca" draggable="false" ondragstart="return false;" alt="Example SiriGPT Output" title="Example SiriGPT Output" width="1000x" /></a></p>
+
+<br/>
+
+[ChatGPT][chaGPT] and [DALL·E][dalle] are two of the most powerful AI tools developed in recent years. They have the potential to revolutionise the way we interact with our devices and make our lives easier. However, it's important to remember that they have their limitations, and may not always be able to deliver the desired output due to external factors such as server overload or lack of data. In conclusion, SiriGPT is a powerful tool that has the potential to revolutionise the way we interact with our devices. By being clear and specific in our requests, we can help these tools deliver more accurate and relevant responses.
+
+<br/>
+
+## What's new in SiriGPT v1.2
+
+This shortcut supports continuous conversation, exit chat, and new chat across all your Apple devices.
+
+- Feature updates:
+  - Added support for continuous chatting.
+    - Users can easily continue their conversation without any interruption.
+    - Users can start a new conversation and exit chatting whenever required.
+      To start a new chat, simply say "New chat" during the conversation, and Siri will initiate a fresh round of chat, causing the previous context to be lost. It's important to note that you won't be able to continue the previous conversation with the same information. If you wish to exit SiriGPT and use Siri, you can say "Quit chat" during the conversation. Alternatively, you can close Siri directly and reopen it, but it's more natural to use the provided command to exit.
+  - Integration with DALL·E to generate an image.
+    - Users can generate an image by including the word "image" in their prompt.
+  - Multi-language start prompt.
+    - The prompt language will automatically change based on the language set in the user's device. Users can choose from a variety of languages including English, Deutsch, Español, Français, Italiano, 日本, 한국인, Português, Русский, عربي, 中国人. This ensures that the user receives prompts in a language they are comfortable with and can easily understand.
+- Customisation options:
+  - The API key can be customised to user preference and stored in a preferred location.
+  - Prompt system messages can be customised to user preference.
+  - The hint message can be tailored to the user's preferences. These prompts are created to suit various situations and contexts, including general AI, accountant, AI-assisted doctor, career counsellor, editor, essay writer, interviewer, mental health advisor, motivational coach, personal trainer, and social media manager.
+
+<br/>
 
 ## Notes
+
 ### Resources
 
-- [Shortcuts User Guide][apple-shortcuts-guide]
+#### Apple
+
 - [Apple Siri][apple-siri]
-- [OpenAI][open-ai]
-- [ChatGPT][chaGPT]
+- [Apple Shortcuts User Guide][apple-shortcuts-guide]
+
+#### OpenAI
+
+- [OpenAI Documentation][intro]
+- [OpenAI Examples][examples]
+- [OpenAI Playground][playground]
+- [OpenAI Models][open-ai-models]
+- [OpenAI Chat][chat-completions]
+
+#### Data Jar
+
 - [Data Jar][data-jar]
 
 ### Contribution
 
-Please report any issues or bugs to the [issues page][issues]. Suggestions for
-improvements are welcome!<br/><br/>
+Thank you for considering using this shortcut. If you'd like to help improve it to make chatGPT more integrated within the Apple ecosystem, feel free to share. If you encounter any issues or bugs, please report them on the [issues page][issues]. Your feedback is valuable in helping to improve this shortcut.<br/><br/>
 
 <p align="center"><a href="#"><img src="https://user-images.githubusercontent.com/48920263/113406768-5a164900-93ac-11eb-94a7-09377a52bf53.png" draggable="false" ondragstart="return false;" /></a></p>
 
-<p align="center"><a href="https://nicolodiamante.com" target="_blank"><img src="https://user-images.githubusercontent.com/48920263/113433823-31a84200-93e0-11eb-9ffb-9111b389ef2f.png" draggable="false" ondragstart="return false;" alt="Nicol&#242; Diamante Portfolio" title="Nicol&#242; Diamante" width="11px" /></a></p>
+<p align="center"><a href="https://github.com/nicolodiamante" target="_blank"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/16a90fa7-c0b4-4689-a3ce-af905c390684" draggable="false" ondragstart="return false;" alt="Nicol&#242; Diamante Portfolio" title="Nicol&#242; Diamante" width="11px" /></a></p>
 
-<p align="center"><a href="https://github.com/nicolodiamante/SiriGPT/blob/main/LICENSE.md" target="_blank"><img src="https://user-images.githubusercontent.com/48920263/110947109-06ca5100-8340-11eb-99cf-8d245044b8a3.png" draggable="false" ondragstart="return false;" alt="The MIT License" title="The MIT License (MIT)" width="90px" /></a></p>
+<p align="center"><a href="https://github.com/nicolodiamante/SiriGPT/blob/main/LICENSE.md" target="_blank"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/fa42b331-be41-437c-b32d-894c759d4457" draggable="false" ondragstart="return false;" alt="The MIT License" title="The MIT License (MIT)" width="90px" /></a></p>
 
 <!-- Link labels: -->
 [open-ai-account]: https://chat.openai.com/auth/login
 [open-ai-API]: https://beta.openai.com/account/api-keys
-[apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/welcome/ios
+[open-ai-models]: https://platform.openai.com/docs/models
+[apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
+[apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/639f90b471204d08ad1ccb1a28fa85e1
 [apple-siri]: https://www.apple.com/siri/
-[open-ai]: https://openai.com
 [chaGPT]: https://openai.com/blog/chatgpt
+[dalle]: https://openai.com/product/dall-e-2
+[playground]: https://platform.openai.com/playground
+[examples]: https://platform.openai.com/examples
+[intro]: https://platform.openai.com/docs/introduction
+[chat-completions]: https://platform.openai.com/docs/guides/chat
 [data-jar]: https://datajar.app
 [issues]: https://github.com/nicolodiamante/SiriGPT/issues
