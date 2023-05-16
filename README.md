@@ -14,7 +14,7 @@ Combining ChatGPT with Siri is relatively straightforward, but it does require a
 To get started, all you need is the [Apple Shortcuts app][apple-shortcuts-download]. Once you have [downloaded the shortcut][sirigpt-shortcut], look for the "Chatty" button. You can even customise the shortcut name to suit your preferences. However, once downloaded don't run it yet, keep reading.
 <br/><br/>
 
-<p align="center"><a href="https://www.icloud.com/shortcuts/639f90b471204d08ad1ccb1a28fa85e1"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/7961b569-35bb-4f47-87cc-a20eb13269a4" draggable="false" ondragstart="return false;" alt="Download theShortcut" title="Download Shortcut" width="600px" /></a></p><br/>
+<p align="center"><a href="https://www.icloud.com/shortcuts/2fcd43bfad0b4d4daf5f0039e3cf44cf"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/739cc769-9858-4f59-9713-7bc25101f688" draggable="false" ondragstart="return false;" alt="Download theShortcut" title="Download Shortcut" width="600px" /></a></p><br/>
 
 ### Create your OpenAI API Key
 
@@ -123,7 +123,7 @@ Thank you for considering using this shortcut. If you'd like to help improve it 
 [open-ai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/639f90b471204d08ad1ccb1a28fa85e1
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/2fcd43bfad0b4d4daf5f0039e3cf44cf
 [apple-siri]: https://www.apple.com/siri/
 [chaGPT]: https://openai.com/blog/chatgpt
 [dalle]: https://openai.com/product/dall-e-2
