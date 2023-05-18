@@ -14,7 +14,7 @@ Combining ChatGPT with Siri is relatively straightforward, but it does require a
 To get started, all you need is the [Apple Shortcuts app][apple-shortcuts-download]. Once you have [downloaded the shortcut][sirigpt-shortcut], look for the "Chatty" button. You can even customise the shortcut name to suit your preferences. However, once downloaded don't run it yet, keep reading.
 <br/><br/>
 
-<p align="center"><a href="https://www.icloud.com/shortcuts/2fcd43bfad0b4d4daf5f0039e3cf44cf"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/739cc769-9858-4f59-9713-7bc25101f688" draggable="false" ondragstart="return false;" alt="Download theShortcut" title="Download Shortcut" width="600px" /></a></p><br/>
+<p align="center"><a href="https://www.icloud.com/shortcuts/875590cb6f4440ca81ef935ce0e1d2b0"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/2d951fa6-d10d-411e-8a95-13a319f944a0" draggable="false" ondragstart="return false;" alt="Download theShortcut" title="Download Shortcut" width="600px" /></a></p><br/>
 
 ### Create your OpenAI API Key
 
@@ -88,6 +88,8 @@ This shortcut supports continuous conversation, exit chat, and new chat across a
 
 ## Notes
 
+Currently, in order to use GPT-4, you need to [join a waitlist][gpt-4-wailist]. Once you have joined the waitlist, you will receive a confirmation email. After that, you will have to wait for an invitation to use the GPT-4 API. If you qualify to use GPT-4, you will see the GPT-4 model option for testing in the playground backend. If you do not have GPT-4 qualifications, you should choose to use the GPT-3.5-Turbo model instead.
+
 ### Resources
 
 #### Apple
@@ -123,7 +125,8 @@ Thank you for considering using this shortcut. If you'd like to help improve it 
 [open-ai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/2fcd43bfad0b4d4daf5f0039e3cf44cf
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/875590cb6f4440ca81ef935ce0e1d2b0
+[gpt-4-wailist]: https://openai.com/waitlist/gpt-4-api
 [apple-siri]: https://www.apple.com/siri/
 [chaGPT]: https://openai.com/blog/chatgpt
 [dalle]: https://openai.com/product/dall-e-2
