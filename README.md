@@ -88,7 +88,7 @@ This shortcut supports continuous conversation, exit chat, and new chat across a
 
 ## Notes
 
-Currently, in order to use GPT-4, you need to [join a waitlist][gpt-4-wailist]. Once you have joined the waitlist, you will receive a confirmation email. After that, you will have to wait for an invitation to use the GPT-4 API. If you qualify to use GPT-4, you will see the GPT-4 model option for testing in the playground backend. If you do not have GPT-4 qualifications, you should choose to use the GPT-3.5-Turbo model instead.
+Currently, to use GPT-4, you need to [join a waitlist][gpt-4-wailist]. Once you have joined it, you will receive a confirmation email. After that, you will have to wait for an invitation to use the GPT-4 API. If you qualify to use it, you will see the GPT-4 model option for testing in the playground backend. Otherwise, if you do not have the qualifications, you should choose to use the GPT-3.5-Turbo model instead.
 
 ### Resources
 
