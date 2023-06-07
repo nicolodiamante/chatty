@@ -14,7 +14,7 @@ Combining ChatGPT with Siri is relatively straightforward, but it does require a
 To get started, all you need is the [Apple Shortcuts app][apple-shortcuts-download]. Once you have [downloaded the shortcut][sirigpt-shortcut], look for the "Chatty" button. You can even customise the shortcut name to suit your preferences. However, once downloaded don't run it yet, keep reading.
 <br/><br/>
 
-<p align="center"><a href="https://www.icloud.com/shortcuts/694c2e45a68f4839a8ae8c0058959d69"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/827ea7bf-1db8-4d65-a877-d2a7e60e8327" draggable="false" ondragstart="return false;" alt="Download theShortcut" title="Download Shortcut" width="600px" /></a></p><br/>
+<p align="center"><a href="https://www.icloud.com/shortcuts/fa31a1a4b9f64be3bff0940043aeb382"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/827ea7bf-1db8-4d65-a877-d2a7e60e8327" draggable="false" ondragstart="return false;" alt="Download theShortcut" title="Download Shortcut" width="600px" /></a></p><br/>
 
 ### Create your OpenAI API Key
 
@@ -68,34 +68,30 @@ In summary, to make the most of SiriGPT, it is essential to be specific about th
 
 ### v1.3
 
-This shortcut supports continuous conversation, exit chat, and new chat across all your Apple devices.
+Release Highlights:
 
-- Feature Updates:
-  - Improved user privacy in settings.
-  - Users are now able to adjust Temperature, Top P, Frequency Penalty and Presence Penalty settings. Note that decimal division should be done with either a period or a comma based on the device's region settings.
-  - Added a summarising upcoming calendar events & reminders for the next 5 days. Including the word "schedule" when writing a prompt gives a summary of upcoming calendar events and reminders, a feature currently in beta.
-  - Added URL summary to generate instant overviews of website articles when pasting a URL.
-- Customisation Options:
-  - Introduced the Do Anything Now (DAN) Mode. when enabled, SiriGPT will act as an alter ego of itself.
+- Improved user privacy in settings.
+- Users are now able to adjust Temperature, Top P, Frequency Penalty and Presence Penalty settings. Note that decimal division should be done with either a period or a comma based on the device's region settings.
+- Added a summarising upcoming calendar events & reminders for the next 5 days. Including the word "schedule" when writing a prompt gives a summary of upcoming calendar events and reminders, a feature currently in beta.
+- Added URL summary to generate instant overviews of website articles when pasting a URL.
+- Introduced the DAN Mode (Do Anything Now). When enabled, SiriGPT will act as an alter ego of itself.
 
 <br/>
 
 ### v1.2
 
-This shortcut supports continuous conversation, exit chat, and new chat across all your Apple devices.
+Release Highlights:
 
-- Feature updates:
-  - Added support for continuous chatting.
-    - Users can easily continue their conversation without any interruption.
-    - Users can start a new conversation and exit chatting whenever required.
-      To start a new chat, simply say "New chat" during the conversation, and Siri will initiate a fresh round of chat, causing the previous context to be lost. It's important to note that you won't be able to continue the previous conversation with the same information. If you wish to exit SiriGPT and use Siri, you can say "Goodbye". Alternatively, you can close Siri directly and reopen it, but it's more natural to use the provided command to exit.
-  - Integration with DALL·E to generate an image.
-    - Users can generate an image by including the word "image" in their prompt.
-  - Multi-language start prompt.
-    - The prompt language will automatically change based on the language set in the user's device. Users can choose from a variety of languages including English, Deutsch, Español, Français, Italiano, 日本, 한국인, Português, Русский, عربي, 中国人. This ensures that the user receives prompts in a language they are comfortable with and can easily understand.
-- Customisation options:
-  - The API key can be customised to user preference and stored in a preferred location.
-  - Prompt system messages can be customised to user preference.
+- Added support for continuous chatting.
+  - Users can easily continue their conversation without any interruption.
+  - Users can start a new conversation and exit chatting whenever required.
+      To start a new chat, simply say "New chat" during the conversation, and Siri will initiate a fresh round of chat. It's important to note that you won't be able to continue the previous conversation with the same information. If you wish to exit SiriGPT, you can say "Goodbye". Alternatively, you can close SiriGPT directly and reopen it, but it's more natural to use the provided command to exit.
+- Integration with DALL·E to generate an image.
+  - Users can generate an image by including the word "image" in their prompt.
+- Multi-language start prompt.
+  - The prompt language will automatically change based on the language set in the user's device. Users can choose from a variety of languages including English, Deutsch, Español, Français, Italiano, 日本, 한국인, Português, Русский, عربي, 中国人. This ensures that the user receives prompts in a language they are comfortable with and can easily understand.
+- Customisable API key storage location.
+- Prompt system messages can be customised to user preference.
   - The hint message can be tailored to the user's preferences. These prompts are created to suit various situations and contexts, including general AI, accountant, AI-assisted doctor, career counsellor, editor, essay writer, interviewer, mental health advisor, motivational coach, personal trainer, and social media manager.
 
 <br/>
@@ -111,24 +107,26 @@ Privacy is a user's right, which is why SiriGPT allows you to choose what person
 
 ## Notes
 
-#### GPT4
+#### GPT-4
 
-Currently, to use GPT-4, you need to [join a waitlist][gpt-4-wailist]. Once you have joined it, you will receive a confirmation email. After that, you will have to wait for an invitation to use the GPT-4 API. If you qualify to use it, you will see the GPT-4 model option for testing in the playground backend. Otherwise, if you do not have the qualifications, you should choose to use the GPT-3.5-Turbo model instead.
+To use GPT-4, you must [join the waitlist][gpt-4-wwaitlist]. Once registered, you will receive a confirmation email. After that, you will receive an invitation to use the GPT-4 API. Once you're eligible to use it, you'll see the GPT-4 template option for testing in the playground backend. Otherwise, if you don't have the qualifications, you should use the GPT-3.5-Turbo model instead.
 
-#### DAN prompt
+#### DAN Mode
 
 Like humans, AI has a dark side. The Do Anything Now (DAN) Mode enables SiriGPT to act in ways outside the usual AI rules and regulations, resulting in content that may not comply with OpenAI guidelines bringing up inaccuracy and offensiveness. **Therefore, it is recommended to use DAN wisely and responsibly.**
 
 #### Siri
 
-If you encounter an issue with Siri where it states it is "having trouble connecting to the network" or "try again in a little while", the cause may be an unreliable Wi-Fi or cellular signal. Currently, offline mode is not available for Siri—it works by sending data to Apple’s servers. Try these steps to troubleshoot the issue:
+If you encounter an issue with Siri where it states it is "having trouble connecting to the network" or "try again in a little while", the cause may be an unreliable Wi-Fi or cellular signal. Currently, offline mode is not available for Siri—it works by sending data to Apple servers—so an error between your device and the server could result in the inability of Siri to work. Additionally, the overloads on the OpenAI servers can cause SiriGPT (aka Siri) to have trouble providing long responses.
+
+Try these steps to troubleshoot the issue:
 
 1. Restart your iPhone
 2. Check that "Listen for Hey Siri" is enabled
 3. Reset Siri to recognise your voice
 4. Check the microphone functions correctly
 
-SiriGPT may have trouble providing a long response due to overloads on the OpenAI servers or an error between your device and the Apple server. To fix it, go to Settings <a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /></a> Siri & Search <a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /></a> Siri & Dictionary History <a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /></a> Delete Siri & Dictionary History.
+If after these steps the problem persists, another solution is deleting Siri & Dictionary History from the Settings menu. Go to Settings <a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /></a> Siri & Search <a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /></a> Siri & Dictionary History <a href="#"><img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /></a> Delete Siri & Dictionary History.
 
 <br/>
 
@@ -167,8 +165,8 @@ Thank you for taking the time to consider using this shortcut. If you would like
 [open-ai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/694c2e45a68f4839a8ae8c0058959d69
-[gpt-4-wailist]: https://openai.com/waitlist/gpt-4-api
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/fa31a1a4b9f64be3bff0940043aeb382
+[gpt-4-wwaitlist]: https://openai.com/waitlist/gpt-4-api
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
 [chaGPT]: https://openai.com/blog/chatgpt
