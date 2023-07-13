@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-The technologies driving the new wave of chatbots have been brewing for years, taking the world by storm. The release of ChatGPT has triggered a Silicon Valley arms race, pitting the best minds against each other to push the limits of what chatbots can do. But while voice assistants like [Siri][apple-siri] have been around for a while, they don't pack the same punch as [ChatGPT][chaGPT]. That's where the real magic happens, by combining the best of both worlds, we can give Siri a significant IQ boost and take chatbots to new heights. The integration of ChatGPT into Siri represents a new unique way to interact and boost our devices. This shortcut allows you to access the immense intelligence of ChatGPT and the creativity of [DALL·E][dalle] within Siri, giving you a chatbot experience like never before.
+The advanced technologies propelling the latest generation of chatbots have been gaining momentum over the years, revolutionising our world. With the launch of ChatGPT, a competitive scramble amongst the brightest minds has begun in Silicon Valley, each looking to break new ground in what chatbots can do. Despite the existence of voice assistants like [Siri][apple-siri], they don't quite measure up to the capabilities of [ChatGPT][chaGPT]. By merging the best aspects of both, we can significantly enhance Siri's intelligence and elevate the potential of chatbots. Incorporating ChatGPT into Siri offers an unparalleled way to interact with and enhance our devices. This integration provides access to ChatGPT's formidable intellect and [DALL·E][dalle]'s novel creativity within Siri, promising a uniquely advanced chatbot experience.
 
 <br><br>
 
@@ -17,20 +17,20 @@ The technologies driving the new wave of chatbots have been brewing for years, t
 
 <br><br>
 
-Combining ChatGPT with Siri is relatively straightforward, but it does require a few specific requirements and links to ensure everything works smoothly.
+Integrating ChatGPT with Siri is fairly straightforward. However, it requires certain specific prerequisites and links for seamless functioning.
 <br><br>
 
 ## Requirements to get ChatGPT to work with Siri
 
 ### Get the Shortcut
 
-To get started, all you need is the [Apple Shortcuts app][apple-shortcuts-download]. Once you have [downloaded the shortcut][sirigpt-shortcut], look for the "Chatty" button. You can even customise the shortcut name to suit your preferences. However, once downloaded don't run it yet, keep reading.
+To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app followed by the '[Chatty][sirigpt-shortcut]' shortcut. Feel free to rename the shortcut to a title of your preference. However, before you begin using it, ensure that you continue reading for further instructions.
 
 <br><br>
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/284a8d55-a765-4ddd-a030-043a76dca6be" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/a83e6870-a8a3-4c18-90d7-80c676131092" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
   </picture>
 </p>
 
@@ -38,7 +38,10 @@ To get started, all you need is the [Apple Shortcuts app][apple-shortcuts-downlo
 
 ### Create your OpenAI API Key
 
-To use ChatGPT's services with Siri, you'll first need to obtain the API key. This can be done by generating a new secret key from your OpenAI account, which will be required for authentication. To get started, you can obtain the key by following these steps. First, log in to your [OpenAI account][open-ai-account]. Next, look for the "Create new secret key" option and click on it.
+To use ChatGPT's services with Siri, you must first acquire an API key. You can do this by generating a new secret key from your OpenAI account. This secret key is necessary for authentication. Here are the steps on how to do it:
+
+1. Log in to your [OpenAI account][open-ai-account].
+2. Search for the "Create new secret key" option and click on it.
 
 <p align="center">
   <picture>
@@ -46,7 +49,7 @@ To use ChatGPT's services with Siri, you'll first need to obtain the API key. Th
   </picture>
 </p>
 
-Once you have the [API Key][open-ai-API], integrating ChatGPT's services with Siri is a breeze. It's important to note that once you copy the key and close the pop-up, you won't be able to view it again, so it's crucial to keep the key in a safe and secure location.
+Once you obtain the [API Key][open-ai-API], incorporating ChatGPT's services with Siri is straightforward. It's vital to remember, after making a copy of the key and closing the pop-up, you won't have access to it again. Therefore, it's essential to store the key securely in a safe location.
 <br><br>
 
 <p align="center">
@@ -61,13 +64,13 @@ Once you have the [API Key][open-ai-API], integrating ChatGPT's services with Si
 
 ### Setting Up
 
-Once you have downloaded the shortcut and copied the API key, it’s time to make it work and see it in action:
+After downloading the shortcut and copying your API key, follow these steps to put it to use:
 
-- Open the Shortcuts app and access the downloaded Chatty shortcut.
+- Begin by opening the Shortcuts app and finding the downloaded Chatty shortcut.
 
-- Once you launch the Chatty shortcut, you will be prompted to set your API key. You have two options for storing your API key: within the shortcut or inside Data Jar. To clarify, if you choose "Yes" your OpenAI API key will be stored in Data Jar, which is a third-party app for storing data in iOS. If you select "No" your API key will be kept within the Siri shortcut. It's important to note that if you choose to keep your API key in the shortcut, you should take extra care to keep your shortcut secure and not share it with anyone, as this could potentially expose your API key.
+- Upon activating the "Chatty" shortcut, you'll need to enter your OpenAI API key. You can choose to store this key either directly in the shortcut or in the Data Jar app. However, if you choose to store the key in the shortcut, it's crucial to ensure their privacy. Any inadvertent exposure could compromise your security and potentially result in a breach.
 
-- The OpenAI API is powered by a range of models that have different capabilities and pricing plans to suit various use cases. These models include GPT-3, GPT-4. The default model used by SiriGPT is GPT-3.5-turbo. However, users are free to choose the model version they want to use based on their specific needs and requirements. Keep in mind GPT-4 is currently in a limited beta and only accessible to those who have been granted access.
+- Next, continue with the configuration procedure. Follow each essential step attentively to customise the outcome prompt based on your specific preferences for the shortcut. Once finished, you can start using 'Chatty' right away.
 
 <br>
 
@@ -79,7 +82,7 @@ Once you have downloaded the shortcut and copied the API key, it’s time to mak
 
 <br>
 
-All done! Once the integration is complete, you can launch the shortcut by tapping it within the app or from the menu bar on your Mac. Alternatively, when ready to use the shortcut, simply activate Siri and say "Chatty" followed by your question or prompt. The shortcut will then generate a response and read it back to you.
+All set! After completing the integration, you can initiate the shortcut simply by tapping it inside the app or from your Mac's menu bar. If desired, you could also activate the shortcut using Siri. When ready, just say "Chatty" and follow it up with your question or prompt. The shortcut will then generate a response and read it back to you.
 
 <br><br>
 
@@ -93,9 +96,9 @@ All done! Once the integration is complete, you can launch the shortcut by tappi
 
 ### Considerations
 
-ChatGPT is one of the most advanced chatbots available today, with the ability to generate human-like responses to a wide range of questions and inputs. However, like any technology, it has limitations and requires specific usage patterns to produce the desired output. If you have not found SiriGPT useful, it may be because you are not providing it with specific enough input. The key to obtaining precise and accurate responses from SiriGPT is to be as specific as possible about the desired output. A vague input will likely produce a vague answer, while a well-defined input will yield a more targeted and useful response.
+ChatGPT is one of the foremost chatbots available today, with the capability to generate responses remarkably similar to human interaction. However, like all technology, it does present certain limitations and necessitates particular usage patterns to deliver the expected results. If you've found SiriGPT less useful, it might be due to the lack of specificity in your input. For SiriGPT to provide precise and accurate responses, it's critical to clearly define your desired results. General or vague instructions will most likely result in a similarly unfocused answer, while an explicit and well-defined request will generate a more purposeful and useful response.
 
-In summary, to make the most of SiriGPT, it is essential to be specific about the desired output and provide clear instructions on what to avoid. With these guidelines in mind, you can unlock the full potential of this powerful chatbot and streamline your daily tasks.
+In summary, to exploit SiriGPT to its fullest, it is imperative to detail what you want and provide clear directives on what to avoid. Keeping these guidelines in mind, you can harness the full power of this advanced chatbot and simplify your daily tasks.
 
 <br><br>
 
@@ -107,18 +110,30 @@ In summary, to make the most of SiriGPT, it is essential to be specific about th
 
 <br><br>
 
-[ChatGPT][chaGPT] and [DALL·E][dalle] are two of the most powerful AI tools developed in recent years. They have the potential to revolutionise the way we interact with our devices and make our lives easier. However, it's important to remember that they have their limitations, and may not always be able to deliver the desired output due to external factors such as server overload or lack of data. In conclusion, SiriGPT is a powerful tool that has the potential to revolutionise the way we interact with our devices. By being clear and specific in our requests, we can help these tools deliver more accurate and relevant responses.
+[ChatGPT][chaGPT] and [DALL·E][dalle] represent two of the most significant advancements in AI technology in recent years. Their potential to transform our device interactions could greatly simplify our lives. However, like all tools, they have limitations and may not always yield the expected output because of external issues such as server overloads or data insufficiency. In conclusion, by being explicit and concise in our requests, we can assist such powerful AI tools, including ChatGPT, in providing more precise and relevant responses."
 
 <br>
 
 ## What's new in SiriGPT
 
+### v1.3.6
+
+Release Highlights:
+
+- ChatGPT-4 configured as default model.
+- Enhanced the user-friendly prompt output for an improved overall user experience.
+- Ensure functionality is smooth and free from errors.
+- The announcement for upcoming calendar events and reminders is now more effective, focusing more on the daily schedule. This gives users a clearer and more dependable output.
+- Added support for three new languages: Català, Francès Canadenc, and 粵語. This update offers a more inclusive user experience.
+
+<br>
+
 ### v1.3.5
 
 Release Highlights:
 
-- Improved the prompt to give a better output.
-- Improved the call-out for upcoming calendar events and reminders. Typing the phrase "check my schedule" or its equivalent in supported languages (such as überprüfen sie meinen zeitplan, consultar mi horario, consulter mon emploi du temps, controlla i miei impegni, スケジュールを確認する, 내 일정 확인, confira minha agenda, verificar o meu horário, Проверить мое расписание, تحقق من جدولي الزمني, 查看我的日程安排) will give a summary of upcoming calendar events and reminders. Please note that this feature is still in beta.
+- Enhanced the command prompt for superior output.
+- Enhancements have been made to the call-out for upcoming calendar events and reminders. Now, by simply typing "check my schedule" or its equivalent in supported languages, users will receive a summary of their upcoming events and reminders. This includes languages such as German "überprüfen sie meinen zeitplan", Spanish "consultar mi horario", French "consulter mon emploi du temps", Italian "controlla i miei impegni", Japanese "スケジュールを確認する", Korean "내 일정 확인", Portuguese "confira minha agenda", Russian "Проверить мое расписание", Arabic "تحقق من جدولي الزمني", Chinese "查看我的日程安排" and more. It's important to note, this feature is still in its beta testing phase.
 
 <br>
 
@@ -126,11 +141,11 @@ Release Highlights:
 
 Release Highlights:
 
-- Improved user privacy in settings.
-- Users are now able to adjust Temperature, Top P, Frequency Penalty and Presence Penalty settings. Note that decimal division should be done with either a period or a comma based on the device's region settings.
-- Added a summarising upcoming calendar events & reminders for the next 5 days. Including the word "schedule" when writing a prompt gives a summary of upcoming calendar events and reminders, a feature currently in beta.
-- Added URL summary to generate instant overviews of website articles when pasting a URL.
-- Introduced the DAN Mode (Do Anything Now). When enabled, SiriGPT will act as an alter ego of itself.
+- User privacy settings have been enhanced.
+- Adjustments to Temperature, Top P, Frequency Penalty and Presence Penalty settings are now possible. It's important to note that the format for decimal division should be either a period or a comma, depending on the region settings of the device.
+- A new feature provides a summary of upcoming calendar events and reminders for the next five days, and it can be activated by including the word "schedule" in the prompt. This feature is currently in beta testing.
+- A URL summary feature has been added, enabling instant overviews of website articles when a URL is pasted.
+- The Do Anything Now (DAN) Mode, which transforms SiriGPT into a rogue-like AI assistant, has been introduced. This mode allows SiriGPT to operate beyond the typical AI rules and regulations. As such, it may produce content that doesn't adhere to OpenAI's guidelines, potentially causing inaccuracies and offensive material.
 
 <br>
 
@@ -138,23 +153,18 @@ Release Highlights:
 
 Release Highlights:
 
-- Added support for continuous chatting.
-  - Users can easily continue their conversation without any interruption.
-- Users can initiate a new conversation and exit SiriGPT at any time.
-  - To start a fresh chat, say "New chat" or its respective phrase in a supported language. Keep in mind that you won't be able to continue the previous conversation with the same information. To exit SiriGPT, say "Goodbye" or its equivalent in a supported language. You can also close SiriGPT directly but it's more natural to use the provided command.
-- Integration with DALL·E to generate an image.
-  - Users can generate an image by including the word "image" or its equivalent in supported languages in their prompt.
-- Multi-language start prompt.
-  - The prompt language will automatically change based on the language set in the user's device. Users can choose from a variety of languages including English, Deutsch, Español, Français, Italiano, 日本, 한국인, Português, Русский, عربي, 中国人. This ensures that the user receives prompts in a language they are comfortable with and can easily understand.
-- Customisable API key storage location.
-- Prompt system messages can be customised to user preference.
-  - The hint message can be tailored to the user's preferences. These prompts are created to suit various situations and contexts, including general AI, accountant, AI-assisted doctor, career counsellor, editor, essay writer, interviewer, mental health advisor, motivational coach, personal trainer, and social media manager.
+- Support for continuous chatting is now available, allowing users to engage in uninterrupted conversations.
+- Conversations can now be initiated or exited at any user's convenience. To initiate a new chat, the phrase "New chat" or its respective phrase in a supported language should be used. It is important to understand that the previous conversation's information will not be retrievable. To exit SiriGPT, the command "Goodbye" or another equivalent phrase in a supported language should be used, for a more natural interaction.
+- SiriGPT now integrates with DALL·E to enable image generation. Simply include the term "image" or its equivalent in supported languages in the chat prompt to generate an image.
+- A multi-language start prompt has been introduced, adapting automatically to the language set in the user's device. Available languages include English, Deutsch, Español, Français, Italiano, 日本, 한국인, Português, Русский, عربي, 中国人, enabling users to receive prompts in a language they can comfortably understand.
+- Storage location of API keys can now be customised as per individual preferences or requirements.
+- System prompts can be adjusted to suit personal preferences, providing a user-tailored experience. This is applicable to various situations and contexts, such as general AI, accountant, AI-assisted doctor, career counsellor, editor, essay writer, interviewer, mental health advisor, motivational coach, personal trainer, and social media manager.
 
 <br>
 
 ## SiriGPT Privacy
 
-Privacy is a user's right, which is why SiriGPT allows you to choose what personal data to share during setup. SiriGPT is a shortcut within the Apple ecosystem that already provides protection, including when third-party service providers are acting on behalf of Apple. However, OpenAI API is required for SiriGPT to function. If you don't want to share information with a third-party service, you won't be able to use SiriGPT. If you choose to give SiriGPT a try, make sure to read through [OpenAI][openai-privacy]'s Privacy Policies beforehand.
+Users have the right to privacy, which is why SiriGPT lets you decide which personal data you wish to share during its setup. SiriGPT is a feature within the Apple ecosystem that offers built-in protection, including situations where third-party service providers work in coordination with Apple. However, SiriGPT's functionality depends on the OpenAI API. Hence, if you are reluctant about sharing information with a third-party service, you will not be able to utilise SiriGPT. Should you decide to experiment with SiriGPT, we strongly encourage you to review the Privacy Policies of [OpenAI][openai-privacy] beforehand.
 
 <br><br>
 
@@ -170,15 +180,15 @@ Privacy is a user's right, which is why SiriGPT allows you to choose what person
 
 #### GPT-4
 
-To use GPT-4, you must [join the waitlist][gpt-4-wwaitlist]. Once registered, you will receive a confirmation email. After that, you will receive an invitation to use the GPT-4 API. Once you're eligible to use it, you'll see the GPT-4 template option for testing in the playground backend. Otherwise, if you don't have the qualifications, you should use the GPT-3.5-Turbo model instead.
+This shortcut is primarily programmed to operate on the GPT-4 model by default. When we compare the operations of GPT-4 model with the GPT-3.5 model, there is little to distinguish between them in terms of performance for relatively straightforward tasks. However, the GPT-4 model outperforms the previous versions, especially when encountering complex reasoning scenarios. If you wish to access the GPT-4-serviced API, it's crucial to note that this privilege is limited to APIs with a history of successful transactions. If an API isn't eligible to run on the GPT-4 model, for instance, if it doesn't meet ChatGPT-4's qualification criteria, it's recommended to default to the GPT-3.5-Turbo model. If you're looking to explore the various subscription packages, you can review the available options [here][open-ai-prices].
 
 #### DAN Mode
 
-Like humans, AI has a dark side. The Do Anything Now (DAN) Mode enables SiriGPT to act in ways outside the usual AI rules and regulations, resulting in content that may not comply with OpenAI guidelines bringing up inaccuracy and offensiveness. **Therefore, it is recommended to use DAN wisely and responsibly.**
+Just as humans have a dark side, so does AI. The Do Anything Now (DAN) Mode empowers SiriGPT to perform actions beyond its typical AI guidelines, potentially leading to breaches of OpenAI standards, with issues of inaccuracy and offensiveness arising. **Consequently, it's advised to use DAN in a thoughtful and responsible manner.**
 
 #### Siri
 
-If you encounter an issue with Siri where it states it is "having trouble connecting to the network" or "try again in a little while", the cause may be an unreliable Wi-Fi or cellular signal. Currently, offline mode is not available for Siri—it works by sending data to Apple servers—so an error between your device and the server could result in the inability of Siri to work. Additionally, the overloads on the OpenAI servers can cause SiriGPT (aka Siri) to have trouble providing long responses.
+If you come across Siri stating "having trouble connecting to the network" or asking to "try again in a little while", the problem might be due to an unstable Wi-Fi or cellular signal. As Siri does not have an offline mode and operates by sending data to Apple servers, any issue between your device and the server may disrupt Siri's functionality. Also, if the OpenAI servers, which support SiriGPT (also known as Siri), are overwhelmed, it could potentially compromise Siri's ability to provide lengthy responses.
 
 Try these steps to troubleshoot the issue:
 
@@ -191,7 +201,7 @@ If after these steps the problem persists, another solution is deleting Siri & D
 
 #### Language & Region (Number Separator)
 
-The decimal point used when setting decimal numbers is determined by the region settings of the device; for example, a decimal can be set as "0.1" or "0.1".
+The notation used for decimal numbers is dependent on the region settings of your device. For instance, a decimal number could be represented as "0.1" or "0,1".
 
 <br>
 
@@ -216,7 +226,7 @@ The decimal point used when setting decimal numbers is determined by the region 
 
 ### Contribution
 
-Thank you for taking the time to consider using this shortcut. If you would like to contribute to improving SiriGPT's integration with the Apple ecosystem, your feedback would be appreciated to make this shortcut even better. If you encounter any issues or bugs, please report them on the [issues page][issues].
+Thank you for considering this shortcut. Any contribution to improve SiriGPT's integration with the Apple ecosystem, through feedback, is highly appreciated. Encounter any issues or bugs? Please report them on the [issues page][issues].
 
 <p align="center">
   <picture>
@@ -243,8 +253,8 @@ Thank you for taking the time to consider using this shortcut. If you would like
 [open-ai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/ec2a9c0084234df7b30099e3b322c43b
-[gpt-4-wwaitlist]: https://openai.com/waitlist/gpt-4-api
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/49ac3c8a04284e2e87eb622ae1488a3d
+[open-ai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
 [chaGPT]: https://openai.com/blog/chatgpt
