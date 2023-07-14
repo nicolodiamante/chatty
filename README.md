@@ -30,7 +30,7 @@ To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app 
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/a83e6870-a8a3-4c18-90d7-80c676131092" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/b457a3dc-73bb-4ac9-bd8d-99b365eae238" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
   </picture>
 </p>
 
@@ -124,7 +124,7 @@ Release Highlights:
 - Enhanced the user-friendly prompt output for an improved overall user experience.
 - Ensure functionality is smooth and free from errors.
 - The announcement for upcoming calendar events and reminders is now more effective, focusing more on the daily schedule. This gives users a clearer and more dependable output.
-- Added support for three new languages: Català, Francès Canadenc, and 粵語. This update offers a more inclusive user experience.
+- Added support for three new languages: Català, Francès Canadenc, and 粵語. Some Russian phrases have also been corrected, thanks to the input of [@Harosatchi ][Harosatchi]. This update offers a more inclusive user experience.
 
 <br>
 
@@ -253,7 +253,7 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [open-ai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/49ac3c8a04284e2e87eb622ae1488a3d
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/ca3d6165c9cb4a04a871eede7092cfd0
 [open-ai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
@@ -264,4 +264,5 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [intro]: https://platform.openai.com/docs/introduction
 [chat-completions]: https://platform.openai.com/docs/guides/chat
 [data-jar]: https://datajar.app
+[harosatchi]: https://github.com/Harosatchi
 [issues]: https://github.com/nicolodiamante/SiriGPT/issues
