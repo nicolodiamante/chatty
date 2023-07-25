@@ -5,8 +5,7 @@
   </picture>
 </p>
 
-The advanced technologies propelling the latest generation of chatbots have been gaining momentum over the years, revolutionising our world. With the launch of ChatGPT, a competitive scramble amongst the brightest minds has begun in Silicon Valley, each looking to break new ground in what chatbots can do. Despite the existence of voice assistants like [Siri][apple-siri], they don't quite measure up to the capabilities of [ChatGPT][chaGPT]. By merging the best aspects of both, we can significantly enhance Siri's intelligence and elevate the potential of chatbots. Incorporating ChatGPT into Siri offers an unparalleled way to interact with and enhance our devices. This integration provides access to ChatGPT's formidable intellect and [DALL·E][dalle]'s novel creativity within Siri, promising a uniquely advanced chatbot experience.
-
+The advanced technologies propelling the latest generation of chatbots have been gaining momentum over the years, revolutionising our world. With the launch of ChatGPT, a competitive scramble amongst the brightest minds has begun in Silicon Valley, each looking to break new ground in what chatbots can do. Despite the existence of voice assistants like [Siri][apple-siri], they don't quite measure up to the capabilities of ChatGPT. By merging the best aspects of both, we can significantly enhance Siri's intelligence and elevate the potential of chatbots. Incorporating ChatGPT into Siri offers an unparalleled way to interact with and enhance our devices. This integration offers users access to three powerful features within Siri: [ChatGPT][chaGPT]'s impressive intelligence, [DALL·E][dalle]'s innovative creativity, and [Whisper][whisper]'s precise transformation of audio into text. This combination of capabilities promises an exceptionally advanced chatbot experience.
 <br><br>
 
 <p align="center">
@@ -30,7 +29,7 @@ To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app 
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/b457a3dc-73bb-4ac9-bd8d-99b365eae238" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6004d9a2-9bb6-4beb-b389-580c177d7faa" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
   </picture>
 </p>
 
@@ -96,7 +95,7 @@ All set! After completing the integration, you can initiate the shortcut simply 
 
 ### Considerations
 
-ChatGPT is one of the foremost chatbots available today, with the capability to generate responses remarkably similar to human interaction. However, like all technology, it does present certain limitations and necessitates particular usage patterns to deliver the expected results. If you've found SiriGPT less useful, it might be due to the lack of specificity in your input. For SiriGPT to provide precise and accurate responses, it's critical to clearly define your desired results. General or vague instructions will most likely result in a similarly unfocused answer, while an explicit and well-defined request will generate a more purposeful and useful response.
+ChatGPT is one of the foremost chatbots available today, with the capability to generate responses remarkably similar to human interaction. However, like all technology, it does present certain limitations and necessitates particular usage patterns to deliver the expected results. If you've found SiriGPT less useful, it might be due to the lack of specificity in your input. For SiriGPT (aka chatGPT) to provide precise and accurate responses, it's critical to clearly define your desired results. General or vague instructions will most likely result in a similarly unfocused answer, while an explicit and well-defined request will generate a more purposeful and useful response.
 
 In summary, to exploit SiriGPT to its fullest, it is imperative to detail what you want and provide clear directives on what to avoid. Keeping these guidelines in mind, you can harness the full power of this advanced chatbot and simplify your daily tasks.
 
@@ -104,17 +103,47 @@ In summary, to exploit SiriGPT to its fullest, it is imperative to detail what y
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/89f7d87a-91f0-41d4-82df-0a320c0f9b63" draggable="false" ondragstart="return false;" alt="SiriGPT Output" title="WSiriGPT Output" width="1000px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/c4415ce8-3ea7-4750-900e-498b24146a07" draggable="false" ondragstart="return false;" alt="SiriGPT Output" title="WSiriGPT Output" width="1000px" />
   </picture>
 </p>
 
 <br><br>
 
-[ChatGPT][chaGPT] and [DALL·E][dalle] represent two of the most significant advancements in AI technology in recent years. Their potential to transform our device interactions could greatly simplify our lives. However, like all tools, they have limitations and may not always yield the expected output because of external issues such as server overloads or data insufficiency. In conclusion, by being explicit and concise in our requests, we can assist such powerful AI tools, including ChatGPT, in providing more precise and relevant responses."
+ChatGPT, DALL·E, and Whisper represent three highly notable breakthroughs in AI technology in recent years. The potential of SiriGPT lies in combining their capabilities into a single solution, revolutionising how we interact with our devices, and thus significantly simplifying our lives. However, just like with any technological advancement, there are inherent limitations. There may be instances where they fail to produce the anticipated results due to external factors such as server overload or inadequate data. In conclusion, while such technologies undoubtedly simplify our tasks, it is crucial to always consider the input, be mindful of potential limitations, and remember to handle the output with care.
 
-<br>
+<br><br>
+
+<p align="center">
+  <picture>
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/c2fd8229-d868-471f-9f3b-cddc4f33e0d6" draggable="false" ondragstart="return false;" alt="SiriGPT & Whisper Output" title="SiriGPT & Whisper Output" width="700px" />
+  </picture>
+</p>
+
+<br><br>
 
 ## What's new in SiriGPT
+
+### v1.4
+
+Release Highlights:
+
+- Squashed an error causing some users to experience issues with the shortcut output, making it non-functional.
+- Improved the URL summary feature. To access this feature, copy the URL of the article you are interested in and then type or said the command "Summarise" in any of the supported languages. These languages include English US "Summarize", German "Zusammenfassen", Catalan and Spanish "Resumir", Francès Canadenc and French "Résumer", Hindi "संक्षेप", Italian "Riassumi", Japanese "要約", Korean "요약하다", Portuguese "Resumir", Russian "Суммировать", Arabic "لَخَّصَ", Chinese "总结", and Cantonese "總結".
+
+  Upon utilising this command, you will receive a concise paragraph consisting of approximately 100 words. Following that, a bullet-point list will highlight the most crucial information, concluding with a one-sentence summary. With this significant improvement, the summarisation feature allows for the quick and efficient extraction of essential content from any article.
+- Support for two new languages, English (India) and हिन्दी, has been added. Many thanks for his help to [Karthik Jeyakumar][imkarthi7] in implementing these new language options. This upgrade provides a more universal user experience.
+- Automatic Speech Recognition (ASR) has been introduced thanks to Whisper integration, proficient in rapidly converting audio into text with unmatched accuracy. This advanced technology outperforms other voice assistants like Alexa, Siri, and Google, by up to ten times in precision. Whisper allows users to compose content via voice commands, and also provides quick transcriptions of notes and thoughts within Chatty. Users can say "Write Down" in the supported languages (this includes languages such as Catalan "anota", German "schreiben sie auf", Spanish "anote", Francès Canadenc "écrivez", French "notez", Hindi "लिख दो", Italian "annota", Japanese "書き留める", Korean "적다", Portuguese "anote", Russian "записывайте", Arabic "اكتب", Chinese "写下", Cantonese "写低") for simple transcriptions.
+
+  To activate voice transcription, say the command and Chatty will start recording. Once completed, tap the screen to stop recording and Chatty will transcribe and copy the contents to the clipboard. This feature also enables users to conveniently convert extensive audio messages into text, useful in applications like WhatsApp and Messages.
+
+  For example, in Whatsapp:
+  - Hover over the message you wish to transcribe.
+  - Click Forward in the appearing menu. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/d06af7a1-7fb3-489b-8a96-f5a516e8a379" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="19px" />
+  - Choose the individual chat you want to transcript.  &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/0fd1c55e-0106-4e13-b4b9-5125ddee3955" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
+  - Click the Share icon (in the right bottom corner). &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/789eebf5-81bb-48b9-b5b4-29cde9f3fa5e" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="14px" />
+  - Select Chatty. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/acd1f75e-85f4-4368-be74-691c96db9af0" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
+
+<br>
 
 ### v1.3.6
 
@@ -199,9 +228,11 @@ Try these steps to troubleshoot the issue:
 
 If after these steps the problem persists, another solution is deleting Siri & Dictionary History from the Settings menu. Go to Settings <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Siri & Search <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Siri & Dictionary History <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Delete Siri & Dictionary History.
 
-#### Language & Region (Number Separator)
+#### Language & Region
 
-The notation used for decimal numbers is dependent on the region settings of your device. For instance, a decimal number could be represented as "0.1" or "0,1".
+- SiriGPT prompt now offers support for 18 languages, including Catalan, English (US, UK, India), Deutsch, Español, Francès Canadenc, Français, हिन्दी, Italiano, 日本語, 한국어, Português, Русский,  اكتب, 中文, and 粤语.
+
+- The method of configuring the decimal number settings is determined by the region settings of your device. For instance, a decimal number might be set as "0.1" or "0,1."
 
 <br>
 
@@ -218,7 +249,9 @@ The notation used for decimal numbers is dependent on the region settings of you
 - [OpenAI Examples][examples]
 - [OpenAI Playground][playground]
 - [OpenAI Models][open-ai-models]
-- [OpenAI Chat][chat-completions]
+- [OpenAI Chat Completions][chat-completions]
+- [OpenAI DALL·E][dalle]
+- [OpenAI Whisper][whisper]
 
 #### Data Jar
 
@@ -253,16 +286,18 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [open-ai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/ca3d6165c9cb4a04a871eede7092cfd0
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/8a0da1efb0364794aa5b51c50cc7aef0
 [open-ai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
 [chaGPT]: https://openai.com/blog/chatgpt
 [dalle]: https://openai.com/product/dall-e-2
+[whisper]: https://openai.com/research/whisper
 [playground]: https://platform.openai.com/playground
 [examples]: https://platform.openai.com/examples
 [intro]: https://platform.openai.com/docs/introduction
 [chat-completions]: https://platform.openai.com/docs/guides/chat
 [data-jar]: https://datajar.app
 [harosatchi]: https://github.com/Harosatchi
+[imkarthi7]: https://github.com/imkarthi7
 [issues]: https://github.com/nicolodiamante/SiriGPT/issues
