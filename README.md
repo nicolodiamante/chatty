@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/8620df70-0f82-4804-bd13-1b939c752680" draggable="false" ondragstart="return false;" alt="SiriGPT" title="SiriGPT" />
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/27d01f39-55fe-477f-9f77-684b4b72a17f" draggable="false" ondragstart="return false; "alt="SiriGPT" title="SiriGPT" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/9a0752bd-ab06-491f-9b6d-1a9abeabe472" draggable="false" ondragstart="return false;" alt="SiriGPT" title="SiriGPT" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/5218d8d8-1198-4c5a-b5f6-6792ebf90621" draggable="false" ondragstart="return false; "alt="SiriGPT" title="SiriGPT" />
   </picture>
 </p>
 
@@ -29,7 +29,7 @@ To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app 
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6004d9a2-9bb6-4beb-b389-580c177d7faa" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/2c782338-9fdf-496c-84e8-83ec0e648949" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
   </picture>
 </p>
 
@@ -115,7 +115,7 @@ ChatGPT, DALL·E, and Whisper represent three highly notable breakthroughs in AI
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/c2fd8229-d868-471f-9f3b-cddc4f33e0d6" draggable="false" ondragstart="return false;" alt="SiriGPT & Whisper Output" title="SiriGPT & Whisper Output" width="700px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/aaac63c4-ad81-4180-ae43-301a1c6f7e9c" draggable="false" ondragstart="return false;" alt="SiriGPT & Whisper Output" title="SiriGPT & Whisper Output" width="900px" />
   </picture>
 </p>
 
@@ -123,25 +123,42 @@ ChatGPT, DALL·E, and Whisper represent three highly notable breakthroughs in AI
 
 ## What's new in SiriGPT
 
+### v1.4.1
+
+Release Highlights:
+
+- Language support for Polski and Türkçe is now available, providing a more inclusive experience for users.
+
+- The Speech Recognition (ASR) functionality has been significantly enhanced with the introduction of the Whisper translation feature. This allows for transcriptions of audio files from any supported language into English text. Please note, translation is currently limited to English.
+
+  With Chatty, you can easily use voice translation to convert audio messages into text in various languages. To get started, all you need to do is type or say the command "Translate" in any of the supported languages. Supported languages include Arabic "ترجمة", Catalan "Tradueix", German "Übersetzen", Spanish "Traducir", Francès Canadenc "Traduire", French "Traduire", Hindi "अनुवाद करना", Italian "Traduci", Japanese "翻訳", Korean "번역하기", Polish "Przetłumacz", Portuguese "Traduzir", Russian "Перевести", Turkish "Çevir", Chinese "翻译", and Cantonese "翻譯". To stop the recording, simply tap the screen. Upon completion, Chatty will automatically translate and transcribe the recorded text for you. This functionality serves as a convenient solution for users who need to convert lengthy audio messages into text, making communication in languages other than English hassle-free.
+
+  Following the same steps as the transcription will also allow for translation from the received text into a different language (check the steps in version 1.4 below).
+
+<br>
+
 ### v1.4
 
 Release Highlights:
 
 - Squashed an error causing some users to experience issues with the shortcut output, making it non-functional.
-- Improved the URL summary feature. To access this feature, copy the URL of the article you are interested in and then type or said the command "Summarise" in any of the supported languages. These languages include English US "Summarize", German "Zusammenfassen", Catalan and Spanish "Resumir", Francès Canadenc and French "Résumer", Hindi "संक्षेप", Italian "Riassumi", Japanese "要約", Korean "요약하다", Portuguese "Resumir", Russian "Суммировать", Arabic "لَخَّصَ", Chinese "总结", and Cantonese "總結".
+- Improved the URL summary feature. To access this feature, copy the URL of the article you are interested in and then type or said the command "Summarise" in any of the supported languages. These languages include English US "Summarize", Arabic "لَخَّصَ", German "Zusammenfassen", Catalan and Spanish "Resumir", Francès Canadenc, French "Résumer", Hindi "संक्षेप", Italian "Riassumi", Japanese "要約", Korean "요약하다", Portuguese "Resumir", Russian "Суммировать", Chinese "总结", and Cantonese "總結".
 
   Upon utilising this command, you will receive a concise paragraph consisting of approximately 100 words. Following that, a bullet-point list will highlight the most crucial information, concluding with a one-sentence summary. With this significant improvement, the summarisation feature allows for the quick and efficient extraction of essential content from any article.
-- Support for two new languages, English (India) and हिन्दी, has been added. Many thanks for his help to [Karthik Jeyakumar][imkarthi7] in implementing these new language options. This upgrade provides a more universal user experience.
-- Automatic Speech Recognition (ASR) has been introduced thanks to Whisper integration, proficient in rapidly converting audio into text with unmatched accuracy. This advanced technology outperforms other voice assistants like Alexa, Siri, and Google, by up to ten times in precision. Whisper allows users to compose content via voice commands, and also provides quick transcriptions of notes and thoughts within Chatty. Users can say "Write Down" in the supported languages (this includes languages such as Catalan "anota", German "schreiben sie auf", Spanish "anote", Francès Canadenc "écrivez", French "notez", Hindi "लिख दो", Italian "annota", Japanese "書き留める", Korean "적다", Portuguese "anote", Russian "записывайте", Arabic "اكتب", Chinese "写下", Cantonese "写低") for simple transcriptions.
+
+- Support for two new languages, English (India) and हिन्दी, has been added. This upgrade provides a more universal user experience. Many thanks for his help to [Karthik Jeyakumar][imkarthi7] in implementing these languages.
+- Automatic Speech Recognition (ASR) has been introduced thanks to Whisper integration, proficient in rapidly converting audio into text with unmatched accuracy. This advanced technology outperforms other voice assistants like Alexa, Siri, and Google, by up to ten times in precision. Whisper allows users to compose content via voice commands, and also provides quick transcriptions of notes and thoughts within Chatty. Users can say "Write Down" in the supported languages (this includes languages such as Arabic "اكتب", Catalan "anota", German "schreiben sie auf", Spanish "anote", Francès Canadenc "écrivez", French "notez", Hindi "लिख दो", Italian "annota", Japanese "書き留める", Korean "적다", Portuguese "anote", Russian "записывайте", Chinese "写下", Cantonese "写低") for simple transcriptions.
 
   To activate voice transcription, say the command and Chatty will start recording. Once completed, tap the screen to stop recording and Chatty will transcribe and copy the contents to the clipboard. This feature also enables users to conveniently convert extensive audio messages into text, useful in applications like WhatsApp and Messages.
 
   For example, in Whatsapp:
-  - Hover over the message you wish to transcribe.
-  - Click Forward in the appearing menu. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/d06af7a1-7fb3-489b-8a96-f5a516e8a379" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="19px" />
-  - Choose the individual chat you want to transcript.  &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/0fd1c55e-0106-4e13-b4b9-5125ddee3955" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
-  - Click the Share icon (in the right bottom corner). &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/789eebf5-81bb-48b9-b5b4-29cde9f3fa5e" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="14px" />
-  - Select Chatty. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/acd1f75e-85f4-4368-be74-691c96db9af0" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
+
+1.  Hover over the message you wish to transcribe.
+2.  Click Forward in the appearing menu. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/d06af7a1-7fb3-489b-8a96-f5a516e8a379" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="19px" />
+
+- Choose the individual chat you want to transcript. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/0fd1c55e-0106-4e13-b4b9-5125ddee3955" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
+- Click the Share icon (in the right bottom corner). &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/789eebf5-81bb-48b9-b5b4-29cde9f3fa5e" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="14px" />
+- Select Chatty. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/acd1f75e-85f4-4368-be74-691c96db9af0" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
 
 <br>
 
@@ -162,7 +179,7 @@ Release Highlights:
 Release Highlights:
 
 - Enhanced the command prompt for superior output.
-- Enhancements have been made to the call-out for upcoming calendar events and reminders. Now, by simply typing "check my schedule" or its equivalent in supported languages, users will receive a summary of their upcoming events and reminders. This includes languages such as German "überprüfen sie meinen zeitplan", Spanish "consultar mi horario", French "consulter mon emploi du temps", Italian "controlla i miei impegni", Japanese "スケジュールを確認する", Korean "내 일정 확인", Portuguese "confira minha agenda", Russian "Проверить мое расписание", Arabic "تحقق من جدولي الزمني", Chinese "查看我的日程安排" and more. It's important to note, this feature is still in its beta testing phase.
+- Enhancements have been made to the call-out for upcoming calendar events and reminders. Now, by simply typing "check my schedule" or its equivalent in supported languages, users will receive a summary of their upcoming events and reminders. This includes languages such as Arabic "تحقق من جدولي الزمني", German "überprüfen sie meinen zeitplan", Spanish "consultar mi horario", French "consulter mon emploi du temps", Italian "controlla i miei impegni", Japanese "スケジュールを確認する", Korean "내 일정 확인", Portuguese "confira minha agenda", Russian "Проверить мое расписание", Chinese "查看我的日程安排" and more. It's important to note, this feature is still in its beta testing phase.
 
 <br>
 
@@ -185,7 +202,7 @@ Release Highlights:
 - Support for continuous chatting is now available, allowing users to engage in uninterrupted conversations.
 - Conversations can now be initiated or exited at any user's convenience. To initiate a new chat, the phrase "New chat" or its respective phrase in a supported language should be used. It is important to understand that the previous conversation's information will not be retrievable. To exit SiriGPT, the command "Goodbye" or another equivalent phrase in a supported language should be used, for a more natural interaction.
 - SiriGPT now integrates with DALL·E to enable image generation. Simply include the term "image" or its equivalent in supported languages in the chat prompt to generate an image.
-- A multi-language start prompt has been introduced, adapting automatically to the language set in the user's device. Available languages include English, Deutsch, Español, Français, Italiano, 日本, 한국인, Português, Русский, عربي, 中国人, enabling users to receive prompts in a language they can comfortably understand.
+- A multi-language start prompt has been introduced, adapting automatically to the language set in the user's device. Available languages include English,عربي, Deutsch, Español, Français, Italiano, 日本, 한국인, Português, Русский, 中国人, enabling users to receive prompts in a language they can comfortably understand.
 - Storage location of API keys can now be customised as per individual preferences or requirements.
 - System prompts can be adjusted to suit personal preferences, providing a user-tailored experience. This is applicable to various situations and contexts, such as general AI, accountant, AI-assisted doctor, career counsellor, editor, essay writer, interviewer, mental health advisor, motivational coach, personal trainer, and social media manager.
 
@@ -215,6 +232,12 @@ This shortcut is primarily programmed to operate on the GPT-4 model by default. 
 
 Just as humans have a dark side, so does AI. The Do Anything Now (DAN) Mode empowers SiriGPT to perform actions beyond its typical AI guidelines, potentially leading to breaches of OpenAI standards, with issues of inaccuracy and offensiveness arising. **Consequently, it's advised to use DAN in a thoughtful and responsible manner.**
 
+#### Whisper
+
+The Whisper API has a default file size limit of 25 MB. If your audio file exceeds this limit, you have two options: either break it into chunks of 25 MB or less, or use a compressed audio format. To ensure optimal performance, it is advisable to avoid dividing the audio in the middle of a sentence, as it may lead to the loss of contextual information.
+
+Here are the languages currently supported through both the transcription and translation endpoints: Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.
+
 #### Siri
 
 If you come across Siri stating "having trouble connecting to the network" or asking to "try again in a little while", the problem might be due to an unstable Wi-Fi or cellular signal. As Siri does not have an offline mode and operates by sending data to Apple servers, any issue between your device and the server may disrupt Siri's functionality. Also, if the OpenAI servers, which support SiriGPT (also known as Siri), are overwhelmed, it could potentially compromise Siri's ability to provide lengthy responses.
@@ -230,9 +253,9 @@ If after these steps the problem persists, another solution is deleting Siri & D
 
 #### Language & Region
 
-- SiriGPT prompt now offers support for 18 languages, including Catalan, English (US, UK, India), Deutsch, Español, Francès Canadenc, Français, हिन्दी, Italiano, 日本語, 한국어, Português, Русский,  اكتب, 中文, and 粤语.
+SiriGPT prompt now offers support for 18 languages, including Catalan, English (US, UK, India), Deutsch, Español, Francès Canadenc, Français, हिन्दी, Italiano, 日本語, 한국어, Português, Русский, اكتب, 中文, and 粤语.
 
-- The method of configuring the decimal number settings is determined by the region settings of your device. For instance, a decimal number might be set as "0.1" or "0,1."
+The method of configuring the decimal number settings is determined by the region settings of your device. For instance, a decimal number might be set as "0.1" or "0,1."
 
 <br>
 
@@ -281,12 +304,13 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 </p>
 
 <!-- Link labels: -->
+
 [open-ai-account]: https://chat.openai.com/auth/login
 [open-ai-API]: https://beta.openai.com/account/api-keys
 [open-ai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/8a0da1efb0364794aa5b51c50cc7aef0
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/a1918ee8313d4040bd7b44fb5bfdf4b6
 [open-ai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
