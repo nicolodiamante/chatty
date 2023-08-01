@@ -153,12 +153,11 @@ Release Highlights:
 
   For example, in Whatsapp:
 
-1.  Hover over the message you wish to transcribe.
-2.  Click Forward in the appearing menu. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/d06af7a1-7fb3-489b-8a96-f5a516e8a379" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="19px" />
-
-- Choose the individual chat you want to transcript. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/0fd1c55e-0106-4e13-b4b9-5125ddee3955" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
-- Click the Share icon (in the right bottom corner). &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/789eebf5-81bb-48b9-b5b4-29cde9f3fa5e" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="14px" />
-- Select Chatty. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/acd1f75e-85f4-4368-be74-691c96db9af0" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
+  - Hover over the message you wish to transcribe.
+  - Click Forward in the appearing menu. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/d06af7a1-7fb3-489b-8a96-f5a516e8a379" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="19px" />
+  - Choose the individual chat you want to transcript. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/0fd1c55e-0106-4e13-b4b9-5125ddee3955" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
+  - Click the Share icon (in the right bottom corner). &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/789eebf5-81bb-48b9-b5b4-29cde9f3fa5e" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="14px" />
+  - Select Chatty. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/acd1f75e-85f4-4368-be74-691c96db9af0" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
 
 <br>
 
@@ -224,30 +223,36 @@ Users have the right to privacy, which is why SiriGPT lets you decide which pers
 
 ## Notes
 
-#### GPT-4
+### GPT-4
 
 This shortcut is primarily programmed to operate on the GPT-4 model by default. When we compare the operations of GPT-4 model with the GPT-3.5 model, there is little to distinguish between them in terms of performance for relatively straightforward tasks. However, the GPT-4 model outperforms the previous versions, especially when encountering complex reasoning scenarios. If you wish to access the GPT-4-serviced API, it's crucial to note that this privilege is limited to APIs with a history of successful transactions. If an API isn't eligible to run on the GPT-4 model, for instance, if it doesn't meet ChatGPT-4's qualification criteria, it's recommended to default to the GPT-3.5-Turbo model. If you're looking to explore the various subscription packages, you can review the available options [here][open-ai-prices].
 
-#### DAN Mode
+<br>
+
+### DAN Mode
 
 Just as humans have a dark side, so does AI. The Do Anything Now (DAN) Mode empowers SiriGPT to perform actions beyond its typical AI guidelines, potentially leading to breaches of OpenAI standards, with issues of inaccuracy and offensiveness arising. **Consequently, it's advised to use DAN in a thoughtful and responsible manner.**
 
-#### Whisper
+<br>
+
+### Whisper
 
 The Whisper API has a default file size limit of 25 MB. If your audio file exceeds this limit, you have two options: either break it into chunks of 25 MB or less, or use a compressed audio format. To ensure optimal performance, it is advisable to avoid dividing the audio in the middle of a sentence, as it may lead to the loss of contextual information.
 
 Here are the languages currently supported through both the transcription and translation endpoints: Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.
 
-#### Siri
+<br>
+
+### Siri
 
 If you come across Siri stating "having trouble connecting to the network" or asking to "try again in a little while", the problem might be due to an unstable Wi-Fi or cellular signal. As Siri does not have an offline mode and operates by sending data to Apple servers, any issue between your device and the server may disrupt Siri's functionality. Also, if the OpenAI servers, which support SiriGPT (also known as Siri), are overwhelmed, it could potentially compromise Siri's ability to provide lengthy responses.
 
 Try these steps to troubleshoot the issue:
 
-1. Restart your iPhone
-2. Check that "Listen for Hey Siri" is enabled
-3. Reset Siri to recognise your voice
-4. Check the microphone functions correctly
+- Restart your iPhone
+- Check that "Listen for Hey Siri" is enabled
+- Reset Siri to recognise your voice
+- Check the microphone functions correctly
 
 If after these steps the problem persists, another solution is deleting Siri & Dictionary History from the Settings menu. Go to Settings <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Siri & Search <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Siri & Dictionary History <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Delete Siri & Dictionary History.
 
