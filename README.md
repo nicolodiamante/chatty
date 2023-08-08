@@ -23,7 +23,7 @@ Integrating ChatGPT with Siri is fairly straightforward. However, it requires ce
 
 ### Get the Shortcut
 
-To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app followed by the '[Chatty][sirigpt-shortcut]' shortcut. Feel free to rename the shortcut to a title of your preference. However, before you begin using it, ensure that you continue reading for further instructions.
+To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app followed by the [Chatty shortcut][sirigpt-shortcut]. Feel free to rename the shortcut to a title of your preference. However, before you begin using it, ensure that you continue reading for further instructions.
 
 <br><br>
 
@@ -37,9 +37,9 @@ To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app 
 
 ### Create your OpenAI API Key
 
-To use ChatGPT's services with Siri, you must first acquire an API key. You can do this by generating a new secret key from your OpenAI account. This secret key is necessary for authentication. Here are the steps on how to do it:
+To utilise ChatGPT's services with Siri, it is essential to obtain an OpenAI API key. In order to acquire this key, you need to generate a new secret key from your existing OpenAI account. If you don't possess an OpenAI account yet, you can easily create one by following this [link][openai-signup]. This secret key plays a crucial role in verifying your authentication. Here are the steps on how to do it:
 
-1. Log in to your [OpenAI account][open-ai-account].
+1. Log in to your [OpenAI account][openai-account].
 2. Search for the "Create new secret key" option and click on it.
 
 <p align="center">
@@ -48,12 +48,12 @@ To use ChatGPT's services with Siri, you must first acquire an API key. You can 
   </picture>
 </p>
 
-Once you obtain the [API Key][open-ai-API], incorporating ChatGPT's services with Siri is straightforward. It's vital to remember, after making a copy of the key and closing the pop-up, you won't have access to it again. Therefore, it's essential to store the key securely in a safe location.
+Once you obtain the [API Key][openai-API], incorporating ChatGPT's services with Siri is straightforward. It's important to remember, after making a copy of the key and closing the pop-up, you won't have access to it again. Therefore, store the key securely in a safe location.
 <br><br>
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/af9b460c-824e-456d-ac91-a26a24f2c425" draggable="false" ondragstart="return false; "alt="OpenAI API Key" title="OpenAI API Key" width="750px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/722fc2d5-646f-482f-add8-c6c5c89e35a6" draggable="false" ondragstart="return false; "alt="OpenAI API Key" title="OpenAI API Key" width="750px" />
   </picture>
 </p>
 
@@ -225,7 +225,7 @@ Users have the right to privacy, which is why SiriGPT lets you decide which pers
 
 ### GPT-4
 
-This shortcut is primarily programmed to operate on the GPT-4 model by default. When we compare the operations of GPT-4 model with the GPT-3.5 model, there is little to distinguish between them in terms of performance for relatively straightforward tasks. However, the GPT-4 model outperforms the previous versions, especially when encountering complex reasoning scenarios. If you wish to access the GPT-4-serviced API, it's crucial to note that this privilege is limited to APIs with a history of successful transactions. If an API isn't eligible to run on the GPT-4 model, for instance, if it doesn't meet ChatGPT-4's qualification criteria, it's recommended to default to the GPT-3.5-Turbo model. If you're looking to explore the various subscription packages, you can review the available options [here][open-ai-prices].
+This shortcut is primarily programmed to operate on the GPT-4 model by default. When we compare the operations of GPT-4 model with the GPT-3.5 model, there is little to distinguish between them in terms of performance for relatively straightforward tasks. However, the GPT-4 model outperforms the previous versions, especially when encountering complex reasoning scenarios. If you wish to access the GPT-4-serviced API, it's crucial to note that this privilege is limited to APIs with a history of successful transactions. If an API isn't eligible to run on the GPT-4 model, for instance, if it doesn't meet ChatGPT-4's qualification criteria, it's recommended to default to the GPT-3.5-Turbo model. If you're looking to explore the various subscription packages, you can review the available options [here][openai-prices].
 
 <br>
 
@@ -276,7 +276,7 @@ The method of configuring the decimal number settings is determined by the regio
 - [OpenAI Documentation][intro]
 - [OpenAI Examples][examples]
 - [OpenAI Playground][playground]
-- [OpenAI Models][open-ai-models]
+- [OpenAI Models][openai-models]
 - [OpenAI Chat Completions][chat-completions]
 - [OpenAI DALL·E][dalle]
 - [OpenAI Whisper][whisper]
@@ -310,13 +310,14 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 
 <!-- Link labels: -->
 
-[open-ai-account]: https://chat.openai.com/auth/login
-[open-ai-API]: https://beta.openai.com/account/api-keys
-[open-ai-models]: https://platform.openai.com/docs/models
+[openai-account]: https://auth0.openai.com/u/login/identifier?state=hKFo2SBWNUdMbnRYYTFTeFdkNW1rUEY5cHNyUVMxdE9FdjdxYqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIDJVOVBFOWdJZkw4WEdpbmsxQ1JRRTEydWY5LXlzYUxFo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q
+[openai-signup]: https://auth0.openai.com/u/signup/identifier?state=hKFo2SBjY3ExRFozSEdJRVhCQ0hnYkRETjRzM3p3TlV4bjl6a6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFNPWE1oRVdWMm1ZZjU2Rm5UVHcybF9ya3JlU1hCaGd5o2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q
+[openai-API]: https://beta.openai.com/account/api-keys
+[openai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/a1918ee8313d4040bd7b44fb5bfdf4b6
-[open-ai-prices]: https://openai.com/pricing
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/64105e14127942bca0a7365520b96f23
+[openai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
 [chaGPT]: https://openai.com/blog/chatgpt
