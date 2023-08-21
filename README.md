@@ -29,7 +29,7 @@ To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app 
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/2c782338-9fdf-496c-84e8-83ec0e648949" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/cf85a8cf-997e-4e04-97b9-951df5805682" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
   </picture>
 </p>
 
@@ -122,6 +122,14 @@ ChatGPT, DALL·E, and Whisper represent three highly notable breakthroughs in AI
 <br><br>
 
 ## What's new in SiriGPT
+
+### v1.4.2
+
+Release Highlights:
+
+- Introduced the ability for users to customise the number of tokens used. It is important to note that the maximum number of tokens allowed for content generation is shared between the prompting and completion sections. However, the actual limit depends on the model used. On average, each token represents about 4 characters in standard English.
+
+<br>
 
 ### v1.4.1
 
@@ -316,7 +324,7 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [openai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/64105e14127942bca0a7365520b96f23
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/a77232fd4616405b8b9ae40f85ce3302
 [openai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
