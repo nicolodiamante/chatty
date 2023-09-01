@@ -29,7 +29,7 @@ To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app 
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/cf85a8cf-997e-4e04-97b9-951df5805682" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/ad851ecd-0a0a-4856-8f7c-b7b5829b2656" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
   </picture>
 </p>
 
@@ -122,6 +122,16 @@ ChatGPT, DALL·E, and Whisper represent three highly notable breakthroughs in AI
 <br><br>
 
 ## What's new in SiriGPT
+
+### v1.4.3
+
+Release Highlights:
+
+- Introduced a new feature that allows users to conveniently save and access chat history. Whether you find it necessary or simply prefer to keep a record of your conversations, you can now enable this feature seamlessly. If you opt for Data Jar as your storage option, a dedicated SiriGPT-Log will be created to house your logs. On the other hand, if Data Jar is not utilised, your chat history will be securely saved in the Shortcut directory, identified with a JSON extension. Rest assured, with this enhancement, you can preserve valuable conversations without any concern of losing them.
+
+- A new role as an alternative teacher has been added offering a fresh way to learn. By selecting this role and engaging with SiriGPT, you can delve into a diverse range of subjects. With each lesson, SiriGPT provides an explanation tailored to your chosen topic, ensuring that every lesson is distinct from previous ones. Following each session, you will have the choice to progress to the next lesson or opt for a quiz, allowing for an interactive learning experience.
+
+<br>
 
 ### v1.4.2
 
@@ -324,7 +334,7 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [openai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/a77232fd4616405b8b9ae40f85ce3302
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/b81d73c99df64625a6b7be8675548074
 [openai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
