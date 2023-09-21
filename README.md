@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/9a0752bd-ab06-491f-9b6d-1a9abeabe472" draggable="false" ondragstart="return false;" alt="SiriGPT" title="SiriGPT" />
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/5218d8d8-1198-4c5a-b5f6-6792ebf90621" draggable="false" ondragstart="return false; "alt="SiriGPT" title="SiriGPT" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/432956ab-825a-46d7-b57f-d10d3c23bb9f" draggable="false" ondragstart="return false;" alt="SiriGPT" title="SiriGPT" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/3202db5d-5955-49af-8bc5-98230f1d279c" draggable="false" ondragstart="return false; "alt="SiriGPT" title="SiriGPT" />
   </picture>
 </p>
 
