@@ -206,17 +206,17 @@ Release Highlights:
 
 - New Language Support: SiriGPT now supports English (India) and हिन्दी (Hindi), enhancing its universality. Many thanks for his help to [Karthik Jeyakumar][imkarthi7] in implementing these languages.
 
-- Automatic Speech Recognition (ASR) with Whisper: SiriGPT integrates Whisper technology for ASR, rapidly converting audio into text with high precision. This feature allows voice command-based content creation and easy transcription of notes. Whisper allows users to compose content via voice commands, and also provides quick transcriptions of notes and thoughts within Chatty. Users can say "Write Down" in the supported languages for simple transcriptions.
+- Automatic Speech Recognition (ASR) with Whisper: SiriGPT integrates Whisper technology for ASR, rapidly converting audio into text with high precision. This feature allows voice command-based content creation and easy transcription of notes. Whisper allows users to compose content via voice commands, and also provides quick transcriptions of notes and thoughts within Chatty. Users can say ‘Write Down’ in the supported languages for simple transcriptions.
 
-  To activate voice transcription, say the command and Chatty will start recording. Once completed, tap the screen to stop recording and Chatty will transcribe and copy the contents to the clipboard. This feature also enables users to conveniently convert extensive audio messages into text, useful in applications like WhatsApp and Messages.
+  To activate voice transcription, say the command and Chatty will start recording. Once completed, tap the screen to stop recording and Chatty will transcribe and copy the contents to the clipboard. This feature also enables users to conveniently convert extensive audio messages into text, useful in applications like WhatsApp.
 
   For example, in Whatsapp:
 
   - Hover over the message you wish to transcribe.
-  - Click Forward in the appearing menu. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/d06af7a1-7fb3-489b-8a96-f5a516e8a379" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="19px" />
-  - Choose the individual chat you want to transcript. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/0fd1c55e-0106-4e13-b4b9-5125ddee3955" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
-  - Click the Share icon (in the right bottom corner). &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/789eebf5-81bb-48b9-b5b4-29cde9f3fa5e" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="14px" />
-  - Select Chatty. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/acd1f75e-85f4-4368-be74-691c96db9af0" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="18px" />
+  - Click ‘Forward’ in the appearing menu. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/7735da34-b79a-4a9e-a5e3-eb423ff5cade" draggable="false" ondragstart="return false;" alt="Forward Icon" title="Forward Icon" width="19px" />
+  - Choose the individual chat you want to transcript. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/acc6ea97-b3e2-4e16-9773-62fe774d9748" draggable="false" ondragstart="return false;" alt="Done Icon" title="Done Icon" width="18px" />
+  - Click the Share icon (in the right bottom corner). &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/90f7fc45-2561-45e0-beae-fecca219643e" draggable="false" ondragstart="return false;" alt="Share Icon" title="Share Icon" width="14px" />
+  - Select Chatty. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/826d3efc-f295-41a7-8d8f-85db6acd0975" draggable="false" ondragstart="return false;" alt="Chatty Icon" title="Chatty Icon" width="18px" />
 
 <br>
 
@@ -228,7 +228,7 @@ Users have the right to privacy, which is why SiriGPT lets you decide which pers
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/4d5bc675-de8e-4144-8cbf-27bd5410eb7c" draggable="false" ondragstart="return false;" alt="Shortcut Privacy" title="Shortcut Privacy" width="900px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/2ace5ce2-b2fe-47bd-b28a-2552858c5712" draggable="false" ondragstart="return false;" alt="Shortcut Privacy" title="Shortcut Privacy" width="900px" />
   </picture>
 </p>
 
