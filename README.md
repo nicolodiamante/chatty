@@ -28,9 +28,12 @@ To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app 
 <br><br>
 
 <p align="center">
-  <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/66e1361f-9438-44f3-bc61-d5dbb723b3dd" draggable="false" ondragstart="return false;" alt="Download Shortcut" title="Download Shortcut" width="600px" />
-  </picture>
+  <a href="https://www.icloud.com/shortcuts/056a589abb5f4e2a96c1e99737664cf2" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/b62baa32-7f90-4849-9ed6-1571bd46998e" draggable="false" ondragstart="return false;" alt="Download the Shortcut" title="Download Chatty" />
+      <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/5156f226-882a-4416-b8e6-9f10b18ae932" draggable="false" ondragstart="return false; "alt="Download the Shortcut" title="Download Chatty" width="600" />
+    </picture>
+  </a>
 </p>
 
 <br><br>
@@ -228,7 +231,7 @@ Users have the right to privacy, which is why SiriGPT lets you decide which pers
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/2ace5ce2-b2fe-47bd-b28a-2552858c5712" draggable="false" ondragstart="return false;" alt="Shortcut Privacy" title="Shortcut Privacy" width="900px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/91e6c486-027e-4594-b99b-eef2f8e1d2ab" draggable="false" ondragstart="return false;" alt="Shortcut Privacy" title="Shortcut Privacy" width="900px" />
   </picture>
 </p>
 
@@ -333,7 +336,7 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [openai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/7faf5195fd254a0a9087b76e8225a8d5
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/056a589abb5f4e2a96c1e99737664cf2
 [openai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
