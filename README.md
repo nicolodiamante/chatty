@@ -23,15 +23,15 @@ Integrating ChatGPT with Siri is fairly straightforward. However, it requires ce
 
 ### Get the Shortcut
 
-To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app followed by the [Chatty shortcut][sirigpt-shortcut]. Feel free to rename the shortcut to a title of your preference. However, before you begin using it, ensure that you continue reading for further instructions.
+To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app followed by the [Chatty Shortcut][sirigpt-shortcut]. Feel free to rename the shortcut to a title of your preference. However, before you begin using it, ensure that you continue reading for further instructions.
 
 <br><br>
 
 <p align="center">
-  <a href="https://www.icloud.com/shortcuts/056a589abb5f4e2a96c1e99737664cf2" target="_blank">
+  <a href="https://www.icloud.com/shortcuts/ad024588f4dd413aacf446b77ccc3157" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/b62baa32-7f90-4849-9ed6-1571bd46998e" draggable="false" ondragstart="return false;" alt="Download the Shortcut" title="Download Chatty" />
-      <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/5156f226-882a-4416-b8e6-9f10b18ae932" draggable="false" ondragstart="return false; "alt="Download the Shortcut" title="Download Chatty" width="600" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/29765b8c-184c-427f-92b7-03c50a0bcef4" draggable="false" ondragstart="return false;" alt="Download the Shortcut" title="Download Chatty" />
+      <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/2e7f3746-c5c9-4e3c-9c4a-c9b5112a3998" draggable="false" ondragstart="return false; "alt="Download the Shortcut" title="Download Chatty" width="600" />
     </picture>
   </a>
 </p>
@@ -231,7 +231,7 @@ Users have the right to privacy, which is why SiriGPT lets you decide which pers
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/91e6c486-027e-4594-b99b-eef2f8e1d2ab" draggable="false" ondragstart="return false;" alt="Shortcut Privacy" title="Shortcut Privacy" width="900px" />
+    <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/52f41acd-da8c-4ca4-aeed-91007fbc14fe" draggable="false" ondragstart="return false;" alt="Shortcut Privacy" title="Shortcut Privacy" width="900px" />
   </picture>
 </p>
 
@@ -336,7 +336,7 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [openai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/056a589abb5f4e2a96c1e99737664cf2
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/ad024588f4dd413aacf446b77ccc3157
 [openai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
