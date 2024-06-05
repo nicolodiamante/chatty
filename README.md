@@ -28,7 +28,7 @@ To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app 
 <br><br>
 
 <p align="center">
-  <a href="https://www.icloud.com/shortcuts/ad024588f4dd413aacf446b77ccc3157" target="_blank">
+  <a href="https://www.icloud.com/shortcuts/9b01bfe2fa444624ba3ea3c147510790" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/29765b8c-184c-427f-92b7-03c50a0bcef4" draggable="false" ondragstart="return false;" alt="Download the Shortcut" title="Download Chatty" />
       <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/2e7f3746-c5c9-4e3c-9c4a-c9b5112a3998" draggable="false" ondragstart="return false; "alt="Download the Shortcut" title="Download Chatty" width="600" />
@@ -138,6 +138,16 @@ SiriGPT offers a diverse array of capabilities across its various versions, maki
 <br><br>
 
 ## What's new in SiriGPT
+
+### v1.5.1
+
+Release Highlights:
+
+- New Model Integration: This update simplifies the model options from 4 to 3. Users now have three distinct models to choose from: ChatGPT-3.5-Turbo, which now points to ChatGPT-3.5-Turbo-0125; ChatGPT-4 has been upgraded to ChatGPT-4-Turbo; and the newly introduced ChatGPT-4o is now available. This adjustment aims to simplify model selection while maintaining advanced capabilities.
+
+- Enhanced URL Summary Feature: This update refines the function that analyses and condenses web articles into concise summaries when a URL is pasted. The summaries provide a clear overview, capturing about 20-35% of the original text, organised with key bullet points and a final summarising sentence.
+
+<br>
 
 ### v1.5
 
@@ -336,7 +346,7 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [openai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/ad024588f4dd413aacf446b77ccc3157
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/9b01bfe2fa444624ba3ea3c147510790
 [openai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
