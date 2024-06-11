@@ -28,13 +28,17 @@ To initiate, first download the [Apple Shortcuts][apple-shortcuts-download] app 
 <br><br>
 
 <p align="center">
-  <a href="https://www.icloud.com/shortcuts/71bc4ed97dbc41e6b5d9aae5cec39345" target="_blank">
+  <a href="https://www.icloud.com/shortcuts/9971f739110a43f88aa96c67d8346c56" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/29765b8c-184c-427f-92b7-03c50a0bcef4" draggable="false" ondragstart="return false;" alt="Download the Shortcut" title="Download Chatty" />
-      <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/2e7f3746-c5c9-4e3c-9c4a-c9b5112a3998" draggable="false" ondragstart="return false; "alt="Download the Shortcut" title="Download Chatty" width="600" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/SiriGPT/assets/48920263/b375880e-2813-4c2a-a106-a25860d78cba" draggable="false" ondragstart="return false;" alt="Download the Shortcut" title="Download Chatty" />
+      <img src="https://github.com/nicolodiamante/SiriGPT/assets/48920263/e456ce8c-611e-405f-9b51-b61327d8e2ad" draggable="false" ondragstart="return false; "alt="Download the Shortcut" title="Download Chatty" width="600" />
     </picture>
   </a>
 </p>
+
+<br>
+
+> Please make sure to complete the following tasks when transitioning to the new version: Decode the API keys that were previously stored in an encrypted format in the Data Jar. To simplify this process, use the [DecodeMe][decode-key-shortcut] shortcut. Remember to complete this for each key of OpenAI's and ElevenLabs.
 
 <br><br>
 
@@ -138,6 +142,14 @@ SiriGPT offers a diverse array of capabilities across its various versions, maki
 <br><br>
 
 ## What's new in SiriGPT
+
+### v1.5.2
+
+Release Highlights:
+
+- API Key Storage Enhancement: To resolve issues with script readability, API keys will no longer be encrypted in Data Jar. Previously, encryption caused errors that prevented the Shortcut from reading the API key. Storing keys unencrypted will ensure seamless script functionality.
+
+<br>
 
 ### v1.5.1
 
@@ -346,7 +358,7 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [openai-models]: https://platform.openai.com/docs/models
 [apple-shortcuts-guide]: https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios
 [apple-shortcuts-download]: https://apps.apple.com/us/app/shortcuts/id915249334
-[sirigpt-shortcut]: https://www.icloud.com/shortcuts/71bc4ed97dbc41e6b5d9aae5cec39345
+[sirigpt-shortcut]: https://www.icloud.com/shortcuts/9971f739110a43f88aa96c67d8346c56
 [openai-prices]: https://openai.com/pricing
 [openai-privacy]: https://openai.com/policies/privacy-policy
 [apple-siri]: https://www.apple.com/siri/
@@ -358,5 +370,6 @@ Thank you for considering this shortcut. Any contribution to improve SiriGPT's i
 [intro]: https://platform.openai.com/docs/introduction
 [chat-completions]: https://platform.openai.com/docs/guides/chat
 [data-jar]: https://datajar.app
+[decode-key-shortcut]: https://www.icloud.com/shortcuts/0ce3c6d5944a42d4951576620d75f8fe
 [imkarthi7]: https://github.com/imkarthi7
 [issues]: https://github.com/nicolodiamante/SiriGPT/issues
