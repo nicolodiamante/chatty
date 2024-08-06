@@ -246,10 +246,10 @@ Release Highlights:
   For example, in Whatsapp:
 
   - Hover over the message you wish to transcribe.
-  - Click ‘Forward’ in the appearing menu. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/chatty/assets/48920263/7735da34-b79a-4a9e-a5e3-eb423ff5cade" draggable="false" ondragstart="return false;" alt="Forward Icon" title="Forward Icon" width="19px" />
-  - Choose the individual chat you want to transcript. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/chatty/assets/48920263/acc6ea97-b3e2-4e16-9773-62fe774d9748" draggable="false" ondragstart="return false;" alt="Done Icon" title="Done Icon" width="18px" />
-  - Click the Share icon (in the right bottom corner). &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/chatty/assets/48920263/90f7fc45-2561-45e0-beae-fecca219643e" draggable="false" ondragstart="return false;" alt="Share Icon" title="Share Icon" width="14px" />
-  - Select Chatty. &nbsp;&nbsp;<img src="https://github.com/nicolodiamante/chatty/assets/48920263/826d3efc-f295-41a7-8d8f-85db6acd0975" draggable="false" ondragstart="return false;" alt="Chatty Icon" title="Chatty Icon" width="18px" />
+  - Click ‘Forward’ in the appearing menu. &nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/939cb7c2-a86e-4a00-a6a1-d15ba5eb5a8c" draggable="false" ondragstart="return false;" alt="Forward Icon" title="Forward Icon" width="19px" />
+  - Choose the individual chat you want to transcript. &nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/b45f28ad-2388-4e2f-a77a-13023ec290ad" draggable="false" ondragstart="return false;" alt="Done Icon" title="Done Icon" width="18px" />
+  - Click the Share icon (in the right bottom corner). &nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/0a8aa2c8-fdb6-452e-99ff-f628a884d1f6" draggable="false" ondragstart="return false;" alt="Share Icon" title="Share Icon" width="14px" />
+  - Select Chatty. &nbsp;&nbsp;<img src="https://github.com/user-attachments/assets/92103bd0-4686-4bfd-a381-a0f29fa55bc9" draggable="false" ondragstart="return false;" alt="Chatty Icon" title="Chatty Icon" width="18px" />
 
 <br>
 
@@ -300,7 +300,7 @@ Try these steps to troubleshoot the issue:
 - Reset Siri to recognise your voice
 - Check the microphone functions correctly
 
-If after these steps the problem persists, another solution is deleting Siri & Dictionary History from the Settings menu. Go to Settings <img src="https://github.com/nicolodiamante/chatty/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Siri & Search <img src="https://github.com/nicolodiamante/chatty/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Siri & Dictionary History <img src="https://github.com/nicolodiamante/chatty/assets/48920263/6256c23b-689b-4ee9-8986-f8399fde573f" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Delete Siri & Dictionary History.
+If after these steps the problem persists, another solution is deleting Siri & Dictionary History from the Settings menu. Go to Settings <img src="https://github.com/user-attachments/assets/cca85754-874c-4ddd-acdf-3c3dcd54dc8d" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Siri & Search <img src="https://github.com/user-attachments/assets/cca85754-874c-4ddd-acdf-3c3dcd54dc8d" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Siri & Dictionary History <img src="https://github.com/user-attachments/assets/cca85754-874c-4ddd-acdf-3c3dcd54dc8d" draggable="false" ondragstart="return false;" alt="Arrow" title="Arrow" width="5.4px" /> Delete Siri & Dictionary History.
 
 <br>
 
@@ -341,20 +341,20 @@ Thank you for considering this shortcut. Any contribution to improve chatty's in
 
 <p align="center">
   <picture>
-    <img src="https://github.com/nicolodiamante/chatty/assets/48920263/5dc77e2d-8ee2-475e-968b-554664a02b42" draggable="false" ondragstart="return false;" /></>
+    <img src="https://github.com/user-attachments/assets/fad57875-4b04-42d7-9ccd-8751a58278ad" draggable="false" ondragstart="return false;" /></>
   </picture>
 </p>
 
 <p align="center">
   <a href="https://nicolodiamante.com" target="_blank">
-    <img src="https://github.com/nicolodiamante/chatty/assets/48920263/6d27be79-b840-49a0-8dc3-da626333f6f2" draggable="false" ondragstart="return false;" alt="Nicol&#242; Diamante Portfolio" title="Nicol&#242; Diamante" width="17px" />
+    <img src="https://github.com/user-attachments/assets/a336766d-dfab-4ab4-b380-424fbdb80523" draggable="false" ondragstart="return false;" alt="Nicol&#242; Diamante Portfolio" title="Nicol&#242; Diamante" width="17px" />
   </a>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nicolodiamante/chatty/assets/48920263/22b8f78c-ca08-45b0-b2e0-a431344ada13" draggable="false" ondragstart="return false;" alt="MIT License" title="MIT License" />
-    <img src="https://github.com/nicolodiamante/chatty/assets/48920263/4017f8a9-753e-42ab-a950-829aca8b01f6" draggable="false" ondragstart="return false; "alt="MIT License" title="MIT License" width="95px" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/d84a1f30-ae17-4c85-83cf-15585f78accc" draggable="false" ondragstart="return false;" alt="MIT License" title="MIT License" />
+    <img src="https://github.com/user-attachments/assets/52c750a4-87e9-4cef-b778-ab8651a919e3" draggable="false" ondragstart="return false; "alt="MIT License" title="MIT License" width="95px" />
   </picture>
 </p>
 
